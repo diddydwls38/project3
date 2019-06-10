@@ -1,0 +1,535 @@
+var Navigation = {
+	win : {},
+	www : "http://cafedroptop.com" + G_TOP_DIR + "/kr/src",
+	thisUrl : location.href,
+
+	goPage : function (code) {
+		switch (code) {
+		//////////////////////////////////////////////////
+		// Main
+			case "000000" :
+				window.location.href = this.www + "/main.php";
+				break;
+
+			case "en" :
+				window.location.href = "http://cafedroptop.com" + G_TOP_DIR + "/en/src";
+				break;
+
+		// DROPTOP
+			// 브랜드소개
+			case "010100" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=droptop/brandInfo";
+				break;
+				
+			// 브랜드 홍보
+			case "010110" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=droptop/brandPR";
+				break;				
+
+			// 커피 이야기
+			case "010200" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=droptop/brandCoffee";
+				break;
+
+			// 가맹사업설명회 
+			case "010300" :
+				window.location.href = this.www + "/droptop.php?c=" + code + "&s=droptop/joinExplanation";
+				break;
+
+			// 개설비용 및 절차
+			case "010400" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=droptop/costProcedures";
+				break;
+
+			// 개설안내
+			case "010500" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=droptop/accountIntro";
+				break;
+
+			// 가맹상담(FAQ) 
+			case "010600" :
+				window.location.href = this.www + "/droptop.php?c=" + code + "&s=droptop/franchiseConsult";
+				break;
+			case "010601" :
+				window.location.href = this.www + "/droptop.php?c=" + code + "&s=droptop/franchiseConsult";
+				break;
+			case "010602" :
+				window.location.href = this.www + "/droptop.php?c=" + code + "&s=droptop/accountFaq";
+				break;
+     		case "010603" :
+				window.location.href = this.www + "/droptop.php?c=" + code + "&s=droptop/franchiseConsult2";
+				break;
+     		case "010604" :
+				window.location.href = this.www + "/droptop.php?c=" + code + "&s=droptop/franchiseConsult3";
+				break;
+
+
+		// Menu
+		
+		// 신메뉴
+			case "020000" :
+				window.location.href = this.www + "/menu.php?c=" + code + "&s=menu/new_menu";
+				break;
+
+			// COFFEE
+			case "020100" :
+				window.location.href = this.www + "/menu.php?c=" + code + "&s=menu/list&vCate1=1&vCate2=1";
+				break;
+
+			// BEVERAGES
+			case "020200" :
+				window.location.href = this.www + "/menu.php?c=" + code + "&s=menu/list&vCate1=2&vCate2=54";
+				break;
+			// BEVERAGES
+			case "020201" :
+				window.location.href = this.www + "/menu.php?c=" + code + "&s=menu/list&vCate1=2&vCate2=54";
+				break;
+			// BEVERAGES
+			case "020202" :
+				window.location.href = this.www + "/menu.php?c=" + code + "&s=menu/list&vCate1=2&vCate2=55";
+				break;
+			case "020203" :
+				window.location.href = this.www + "/menu.php?c=" + code + "&s=menu/list&vCate1=2&vCate2=56";
+				break;
+
+			// FOOD
+			case "020300" :
+				window.location.href = this.www + "/menu.php?c=" + code + "&s=menu/list&vCate1=3&vCate2=57";
+				break;
+			case "020301" :
+				window.location.href = this.www + "/menu.php?c=" + code + "&s=menu/list&vCate1=3&vCate2=57";
+				break;
+			case "020302" :
+				window.location.href = this.www + "/menu.php?c=" + code + "&s=menu/list&vCate1=3&vCate2=58";
+				break;
+				
+
+			
+			// MD
+			case "020400" :
+				window.location.href = this.www + "/menu.php?c=" + code + "&s=menu/list&vCate1=4&vCate2=4";
+				break;
+
+
+		// Store
+			// 매장안내 
+			case "030100" :
+				window.location.href = this.www + "/store.php?c=" + code + "&s=store/store";
+				break;
+
+			// Theme Store
+			case "030200" :
+				window.location.href = this.www + "/store.php?c=" + code + "&s=store/storeTheme";
+				break;
+
+			// 중국매장
+			case "030900" :
+				window.location.href = this.www + "/store.php?c=" + code + "&s=store/store_ch";
+				break;
+		
+		
+		// 제휴카드 
+			case "030300" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner1";
+				break;
+			case "030301" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner1";
+				break;
+			case "030302" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner2";
+				break;
+			case "030303" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner3";
+				break;
+			case "030304" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner4";
+				break;
+			case "030305" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner5";
+				break;
+			case "030306" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner6";
+				break;
+			case "030307" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner7";
+				break;
+			case "030308" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner8";
+				break;
+			case "030309" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner9";
+				break;
+			case "030310" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner10";
+				break;
+			case "030311" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner11";
+				break;
+		
+		
+		//FRANCHISE
+		
+		case "120000" : //FRANCHISE
+				window.location.href = this.www + "/page.php?c=" + code + "&s=franchise/franchise";
+				break;
+				
+		case "120100" : //창업칼럼
+				window.location.href = this.www + "/franchise.php?c=" + code + "&s=franchise/franchiseColumn&m=View";
+				break;
+		case "120200" : //창업노하우
+				window.location.href = this.www + "/news.php?c=" + code + "&s=news/storeBoardList";
+				break;		
+		case "120300" : //창업안내
+				window.location.href = this.www + "/page.php?c=" + code + "&s=franchise/costProcedures";
+				break;	
+		case "120301" : //인테리어
+				window.location.href = this.www + "/page.php?c=" + code + "&s=franchise/accountIntro";
+				break;	
+		case "120302" : //투자예상비용
+				window.location.href = this.www + "/page.php?c=" + code + "&s=franchise/accountCost";
+				break;	
+		case "120304" : //창업특전
+				window.location.href = this.www + "/page.php?c=" + code + "&s=franchise/franchisebenefit";
+				break;			
+		case "120303" : //창업대출안내
+				window.location.href = this.www + "/page.php?c=" + code + "&s=franchise/franchiseFund";
+				break;	
+					
+		case "120400" : //창업설명회
+				window.location.href = this.www + "/franchise.php?c=" + code + "&s=franchise/joinExplanation";
+				break;	
+
+		case "120500" : //가맹상담
+				window.location.href = this.www + "/franchise.php?c=" + code + "&s=franchise/franchiseConsult";
+				break;	
+
+		case "120502" : //가맹FAQ
+				window.location.href = this.www + "/franchise.php?c=" + code + "&s=franchise/accountFaq";
+				break;	
+				
+								
+				
+		case "120600" : //Master Franchise Application
+				window.location.href = this.www + "/franchise.php?c=" + code + "&s=franchise/franchiseConsult2";
+				break;	
+		case "120604" : //Master Franchise Application
+				window.location.href = this.www + "/franchise.php?c=" + code + "&s=franchise/franchiseConsult3";
+				break;			
+										
+
+		// EVENT
+			// 이벤트소식 
+			case "040100" :
+				window.location.href = this.www + "/event.php?c=" + code + "&s=event/eventList";
+				break;
+
+			// 당첨자 발표
+			case "040200" :
+				window.location.href = this.www + "/event.php?c=" + code + "&s=event/winnerList";
+				break;
+
+			// 드롭탑 음악방송
+			case "040300" :
+				window.location.href = this.www + "/event.php?c=" + code + "&s=event/musicl1";
+				break;
+			// 드롭탑 음악방송 -> 드롭탑 뮤직
+			case "040301" :
+				window.location.href = this.www + "/event.php?c=" + code + "&s=event/musicl1";
+				break;
+			// 드롭탑 음악방송 -> 사연과 신청곡
+			case "040302" :
+				window.location.href = this.www + "/event.php?c=" + code + "&s=event/musicl2";
+				break;
+			// 드롭탑 음악방송 -> 선곡표
+			case "040303" :
+				window.location.href = this.www + "/event.php?c=" + code + "&s=event/musicl3";
+				break;
+
+			// 컬쳐탑이벤트
+			case "040600" :
+				window.location.href = this.www + "/event.php?c=" + code + "&s=event/eventcultureList";
+				break;
+			case "040601" :
+				window.location.href = this.www + "/event.php?c=" + code + "&s=event/eventcultureView";
+				break;
+
+
+
+			// 설문조사
+			case "040500" :
+				window.location.href = this.www + "/event.php?c=" + code + "&s=event/poll";
+				break;
+
+
+		// NEWS
+			// 공지사항 
+			case "050100" :
+				window.location.href = this.www + "/news.php?c=" + code + "&s=news/noticeList";
+				break;
+			// 공지사항 
+			case "050101" :
+				window.location.href = this.www + "/news.php?c=" + code + "&s=news/noticeList";
+				break;
+			// 매장소식
+			case "050102" :
+				window.location.href = this.www + "/news.php?c=" + code + "&s=news/storeNoticeList";
+				break;
+
+
+			// 보도자료 
+			case "050200" :
+				window.location.href = this.www + "/news.php?c=" + code + "&s=news/newsList";
+				break;
+
+			// 제작지원  
+			case "050300" :
+				window.location.href = this.www + "/news.php?c=" + code + "&s=news/pplList";
+				break;
+
+			// multi-MEDIA  
+			case "050400" :
+				window.location.href = this.www + "/news.php?c=" + code + "&s=news/mediaList";
+				break;
+			case "050401" :
+				window.location.href = this.www + "/news.php?c=" + code + "&s=news/mediaList";
+				break;
+			case "050402" :
+				window.location.href = this.www + "/news.php?c=" + code + "&s=news/imageList";
+				break;
+
+			// 매장소식 
+			case "050500" :
+				window.location.href = this.www + "/news.php?c=" + code + "&s=news/storeBoardList";
+				break;
+
+			// Social Droptop
+			case "050600" :
+				window.location.href = this.www + "/event.php?c=" + code + "&s=news/social1";
+				break;
+			case "050601" :
+				window.location.href = this.www + "/event.php?c=" + code + "&s=news/social1";
+				break;
+			case "050602" :
+				window.location.href = this.www + "/event.php?c=" + code + "&s=news/social2";
+				break;
+			case "050603" :
+				window.location.href = this.www + "/event.php?c=" + code + "&s=news/social3";
+				break;
+			case "050604" :
+				window.location.href = this.www + "/event.php?c=" + code + "&s=news/social4";
+				break;		
+				
+				//050700 고객의소리
+			case "050700" :
+				window.location.href = this.www + "/news.php?c=" + code + "&s=news/customerQna";
+				break;	
+
+		// e-SHOP
+			// 온라인 구매 
+			case "060100" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=eshop/onlinePurchase";
+				break;
+
+			// 드롭탑 MD
+			case "060200" :
+				window.location.href = this.www + "/menu.php?c=" + code + "&s=eshop/eshopMd";
+				break;
+
+			// ART Gallery 
+			case "060300" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=eshop/eshopGallery";
+				break;
+			case "060301" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=eshop/eshopGallery1";
+				break;
+			case "060302" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=eshop/eshopGallery2";
+				break;
+			case "060303" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=eshop/eshopGallery3";
+				break;
+			case "060304" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=eshop/eshopGallery4";
+				break;
+			case "060305" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=eshop/eshopGallery5";
+				break;
+			case "060306" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=eshop/eshopGallery6";
+				break;
+			case "060307" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=eshop/eshopGallery7";
+				break;
+			case "060308" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=eshop/eshopGallery8";
+				break;
+			case "060309" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=eshop/eshopGallery9";
+				break;
+
+
+		// 로그인
+			// 로그인
+			case "070100" :
+				window.location.href = this.www + "/login.php?c=" + code + "&m=login";
+				break;
+
+			// 아이디찾기 / 비밀번호찾기
+			case "070200" :
+				window.location.href = this.www + "/login.php?c=" + code + "&m=idpwsearch";
+				break;
+			// 로그아웃
+			case "070300" :
+				if (confirm("로그아웃 하시겠습니까?") == true) {
+					window.location.href = this.www + "/login.php?c=" + code + "&m=logout";
+				}
+				break;
+
+		// JOIN 
+			// 약관동의/실명인증
+			case "080100" :
+				window.location.href = this.www + "/login.php?c=" + code + "&m=agree";
+				break;
+
+		// 멤버쉽 
+			// 카드등록 
+			case "090100" :
+				window.location.href = this.www + "/myPage.php?c=" + code + "&s=myPage/memberCardReg";
+				break;
+
+			// Mypage  
+			case "090200" :
+				window.location.href = this.www + "/myPage.php?c=" + code + "&s=myPage/memberPoint";
+				break;
+
+			// 멤버쉽 FAQ   
+			case "090300" :
+				window.location.href = this.www + "/myPage.php?c=" + code + "&s=myPage/memberFaq";
+				break;
+
+			// 제휴카드 
+			case "090400" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner1";
+				break;
+			case "090401" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner1";
+				break;
+			case "090402" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner2";
+				break;
+			case "090403" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner3";
+				break;
+			case "090404" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner4";
+				break;
+			case "090405" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner5";
+				break;
+			case "090406" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner6";
+				break;
+			case "090407" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=myPage/cardPartner7";
+				break;
+
+			// 고객Q&A  
+			case "090500" :
+				window.location.href = this.www + "/myPage.php?c=" + code + "&s=myPage/memberQna";
+				break;
+
+
+		// 회사소개
+			// 드롭탑 CI/BI  
+			case "100100" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/droptop_ci";
+				break;
+
+			// CEO 
+			case "100200" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/droptop_ci";
+				break;
+
+			// CEO-back
+			case "100201" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/droptop_knowhow";
+				break;
+
+			// 연혁 
+			case "100300" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/droptop_history";
+				break;
+
+			// 비전  
+			case "100400" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/droptop_vision";
+				break;
+
+			// 오시는길
+			case "100500" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/droptop_map1";
+				break;
+			case "100501" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/droptop_map1";
+				break;
+			case "100502" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/droptop_map2";
+				break;
+			case "100503" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/droptop_map3";
+				break;
+			case "100504" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/droptop_map4";
+				break;
+			case "100505" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/droptop_map5";
+				break;
+			case "100506" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/droptop_map6";
+				break;
+
+			// 인재채용 
+			case "100600" :
+				window.location.href = this.www + "/news.php?c=" + code + "&s=other/droptop_recruit";
+				break;
+			// 인재채용 
+			case "100700" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=droptop/brandCoffee";
+				break;
+
+
+		// 기타
+			// 개인정보 취급방침
+			case "110100" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/subpage_member_privacy";
+				break;
+
+			// 이용약관
+			case "110200" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/subpage_member_agreement";
+				break;
+
+			// 사이트맵 
+			case "110300" :
+				window.location.href = this.www + "/page.php?c=" + code + "&s=other/siteMap";
+				break;
+
+			// 회원정보수정
+			case "110400" :
+				window.location.href = this.www + "/myPage.php?c=" + code + "&s=myPage/memberModify";
+				break;
+
+			// 회원탈퇴
+			case "110500" :
+				window.location.href = this.www + "/myPage.php?c=" + code + "&s=myPage/joinDel";
+				break;
+		//////////
+
+		//////////////////////////////////////////////////
+		// 메인
+			default :
+				window.location.href = this.www + "/main.php";
+		//////////
+		}
+	}
+}

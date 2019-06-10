@@ -1,0 +1,1583 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0040)http://cafedroptop.com/n/kr/src/main.php -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>카페드롭탑 Café Droptop</title>
+		<meta name="description" content="&quot;최고의 장소 최고의 커피&quot;, 커피가 맛있는 프랜차이즈 커피전문점 카페드롭탑의 공식 홈페이지입니다.">
+		        
+		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge" />-->
+		<link rel="stylesheet" type="text/css" href="./카페드롭탑 Café Droptop_files/jquery.selectbox.css">
+		<link rel="stylesheet" type="text/css" href="./카페드롭탑 Café Droptop_files/webfont.css">
+		<link rel="stylesheet" type="text/css" href="./카페드롭탑 Café Droptop_files/sub_contents.css">
+
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="/n/kr/css/ie7_sub.css" />
+<![endif]-->
+<!--[if gt IE 7]>
+<link rel="stylesheet" type="text/css" href="/n/kr/css/ie_sub.css" />
+<![endif]-->
+		<link rel="shortcut icon" href="http://cafedroptop.com/n/kr/favicon.ico" type="image/ico">
+		<script async="" src="./카페드롭탑 Café Droptop_files/analytics.js.다운로드"></script><script type="text/javascript" async="" src="./카페드롭탑 Café Droptop_files/ga.js.다운로드"></script><script type="text/javascript" src="./카페드롭탑 Café Droptop_files/jquery-1.9.1.js.다운로드"></script>
+		<script type="text/javascript" src="./카페드롭탑 Café Droptop_files/jquery.selectbox-0.2.min.js.다운로드"></script>
+		<script type="text/javascript" src="./카페드롭탑 Café Droptop_files/jquery-ui-1.10.4.custom.min.js.다운로드"></script>
+		<script type="text/javascript" src="./카페드롭탑 Café Droptop_files/jquery.json-2.2.js.다운로드"></script>
+		<script type="text/javascript">var G_TOP_DIR = "/n";</script>
+
+		<script type="text/javascript" src="./카페드롭탑 Café Droptop_files/Navigation.js.다운로드"></script>
+		<script type="text/javascript" src="./카페드롭탑 Café Droptop_files/MyLib.js.다운로드"></script>
+		<script type="text/javascript" src="./카페드롭탑 Café Droptop_files/OldLib.js.다운로드"></script>
+		<script type="text/javascript" src="./카페드롭탑 Café Droptop_files/DroptopUICommon.js.다운로드"></script>
+
+
+		
+		<script type="text/javascript" language="javascript">
+		//<![CDATA[
+			var _mnbSelectId = [-1,-1];
+			var _hoverId = -1;
+			var _windowWidth;	
+			var _timer;
+			var _imgPath = "/http://cafedroptop.com/n/kr/images" +"/images/top";
+			var _data = [{name:"DROPTOP", url:"javascript:Navigation.goPage('010100');", sub:[{name:"브랜드이야기", url:"javascript:Navigation.goPage('010100');"},
+																								{name:"커피이야기", url:"javascript:Navigation.goPage('100700');"},
+																								{name:"회사소개", url:"javascript:Navigation.goPage('100200');"}]																						
+																								<!--{name:"브랜드 홍보", url:"javascript:Navigation.goPage('010110');"}]-->
+																								},
+						{name:"MENU", url:"javascript:Navigation.goPage('020000');", sub:[{name:"신제품", url:"javascript:Navigation.goPage('020000');"},
+																								{name:"커피", url:"javascript:Navigation.goPage('020100');"},
+																								{name:"음료", url:"javascript:Navigation.goPage('020200');"},
+																								{name:"푸드", url:"javascript:Navigation.goPage('020300');"},
+																								{name:"유로파이", url:"javascript:Navigation.goPage('020400');"}]
+																								},
+						{name:"STORE", url:"javascript:Navigation.goPage('030100');", sub:[{name:"매장안내", url:"javascript:Navigation.goPage('030100');"},
+																								{name:"테마스토어", url:"javascript:Navigation.goPage('030200');"}]
+																								<!--{name:"Global 매장", url:"javascript:Navigation.goPage('030900');"}]-->
+																								},
+						{name:"FRANCHISE", url:"javascript:Navigation.goPage('120000');", sub:[{name:"창업칼럼", url:"javascript:Navigation.goPage('120100');"},
+																								{name:"창업노하우 ", url:"javascript:Navigation.goPage('120200');"},
+																								{name:"창업안내", url:"javascript:Navigation.goPage('120300');"},
+																								{name:"창업설명회", url:"javascript:Navigation.goPage('120400');"},
+																								{name:"가맹상담", url:"javascript:Navigation.goPage('120500');"},
+																								{name:"Master Fr.App", url:"javascript:Navigation.goPage('120600');"}]
+																								},
+						{name:"EVENT", url:"javascript:Navigation.goPage('040100');", sub:[{name:"컬처탑", url:"/n/kr/src/event.php?c=040600&s=event/eventcultureList"},
+																								{name:"이벤트 소식", url:"javascript:Navigation.goPage('040100');"},
+																								{name:"당첨자 발표", url:"javascript:Navigation.goPage('040200');"},
+																								{name:"설문조사 ", url:"javascript:Navigation.goPage('040500');"},
+																								{name:"제휴카드 ", url:"javascript:Navigation.goPage('030301');"}]
+																								},
+						{name:"COMMUNITY", url:"javascript:Navigation.goPage('050100');", sub:[{name:"공지사항", url:"javascript:Navigation.goPage('050100');"},
+																								{name:"보도자료", url:"javascript:Navigation.goPage('050200');"},
+																								{name:"제작지원", url:"javascript:Navigation.goPage('050300');"},
+																								{name:"멀티미디어", url:"javascript:Navigation.goPage('050400');"},
+																								{name:"소셜 드롭탑", url:"javascript:Navigation.goPage('050600');"},
+																								{name:"고객의 소리", url:"javascript:Navigation.goPage('050700');"}]
+																								},
+						
+																								
+
+			{name:"MALL", url:"javascript:Navigation.goPage('060100');", sub:[{name:"모바일쿠폰", url:"javascript:Navigation.goPage('060100');"}]
+			},
+			];
+			//2016.08.02 삭제
+			/*{name:"e-SHOP", url:"javascript:Navigation.goPage('060200');", sub:[{name:"드롭탑상품", url:"javascript:Navigation.goPage('060200');"},
+																								{name:"아트갤러리", url:"javascript:Navigation.goPage('060300');"}]
+																								}*/
+			$(document).ready(function(){
+				var len = _data.length;
+				//gnbLayout
+				var gngCon = $("#gnbLayout .gnb");
+				var subCon = $("#subCon .sub_menu");
+				//$("#subCon").css("display", "none");
+				var fir = "first";
+				for ( var i=0; i<len; i++){
+					fir = (i==0) ? "first":"";
+					var dep1li = $( "<li />", { "class": "dep1_li " + fir} );
+					var dep1menu = $( '<a id="gnb_'+ i +'" href="'+_data[i].url+'" title="' + _data[i].name + ' ' + '">'+_data[i].name+'</a>' );
+					dep1li.append ( dep1menu );
+					gngCon.append ( dep1li );
+					
+					//sub			
+					var depth2Data = Array(_data[i].sub);
+					var dep2li = $( "<li />", { "class": "dep2_li", "id":"dep2_li_"+i } );
+					var depth2ul = $( "<ul />", {"id":"sub_"+i, "class": "dep2_li_ul"});
+					var j;
+					var k = _data[i].sub.length;
+					for( var j = 0; j < k; j++ )
+					{
+						var depth2li = $( "<li />", {"id": "gnb_"+i+"_"+j} );
+						var depth2menu = $( '<a id="gnb_'+ i +"_" + j +'" href="'+_data[i].sub[j].url+'" title="' + _data[i].sub[j].name + ' ' + '">'+_data[i].sub[j].name+'</a>' );
+						depth2li.append (depth2menu);
+						depth2ul.append ( depth2li );
+					}
+					dep2li.append (depth2ul);
+					subCon.append (dep2li);
+				}
+				
+				//hover
+				$('#gnbLayout').mouseover(function(e){
+					mnbOver ( e );
+				});
+				
+				//sub hover remove;
+				$('div.ongMnb > ul > li > .msub > ul > li ').mouseover(function(e){
+					$('div.ongMnb > ul > li > .msub > ul > li ').removeClass('sel');
+				});
+				
+				//focus out
+				$('#gnbLayout').mouseleave(function(e){
+					_timer = setTimeout( "mnbFocus()", 1000 );
+				});
+				
+				
+			});
+			
+			$( window ).resize(function() {
+				  resize();
+			});
+			
+			$( window ).load(function() {
+			  resize();
+			  mnbFocus();
+			});
+			
+			var isSub = false;
+			//menu over 
+			function mnbOver ( e ){
+				
+				var tgId = $(e.target).attr('id');
+				if ( tgId != undefined && tgId != "subCon"){
+					
+					var mid = parseInt(tgId.substr(4,1));
+					var sid = parseInt(tgId.substr(6,1));
+					
+					if ( mid == _mnbSelectId[1] && isSub==false ) {
+						
+					}else{ 
+						$('#gnbUl > li').removeClass("sel");
+					
+						if ( mid != NaN || mid != undefined  ){
+							$('#gnbUl > li:nth-child('+(mid+1)+')').addClass("sel");
+						}
+						if ( sid != undefined || NaN != sid){
+							$('#subCon li').removeClass("sel");
+						}
+					}
+					
+				}
+				
+				$('#subCon').slideDown(200, function() { isSub = true;} );
+				clearTimeout( _timer );
+			}
+			
+			//menu over out focus
+			function mnbFocus (){
+				$('#subCon').slideUp(200, function() {  isSub = false; });
+				
+				$('#gnbUl > li').removeClass("sel");
+				$('#subCon li').removeClass("sel");
+				if ( _mnbSelectId[1] != -1 ){
+					$('#gnbUl > li:nth-child('+(_mnbSelectId[0]+1)+')').addClass("sel");
+					$('#gnb_'+_mnbSelectId[0]+'_'+_mnbSelectId[1]).addClass("sel");
+				}
+			}
+			
+			function resize (){
+				
+				
+				_windowWidth = $( window ).width();
+			}
+			
+			var go_false = function(){ return;}
+			
+			
+		//]]>
+		</script>
+		<script>
+				function fnTicketBooking(aaa)
+				{
+
+					var frmTicketBooking;
+
+					frmTicketBooking = document.createElement("form");
+
+					frmTicketBooking.name = "frmBooking";
+
+					frmTicketBooking.action = "http://ticket.interpark.com/Partner/Certify/NonBooking.asp";
+
+					frmTicketBooking.target = "wndBooking";
+
+					frmTicketBooking.method = "post";
+
+					
+
+					document.body.appendChild(frmTicketBooking);
+
+					var o;
+
+
+					o = document.createElement("input");
+
+					o.name = "bp1";
+
+					o.type = "hidden";
+
+					o.value = "28429"; //해당제휴사코드
+
+					frmTicketBooking.appendChild(o);
+
+
+
+					o = document.createElement("input");
+
+					o.name = "bp2";
+
+					o.type = "hidden";
+
+					o.value = aaa; //해당상품코드
+
+					frmTicketBooking.appendChild(o);
+
+
+					try {
+
+
+						var loc = "";
+
+						win = window.open(loc,"wndBooking","top=10, left=10, width=900, height=682, scrollbars=no"); //예매확인취소는 scrollbars=yes
+
+							if(win==null) {
+
+								alert("팝업창이 제한되어 있어서 예매창을 열 수 없습니다.");
+
+							} else {
+
+								
+								frmTicketBooking.submit();
+
+								win.focus();
+
+							}
+
+					} catch(e) {
+
+						alert("팝업창이 제한되어 있어서 예매창을 열 수 없습니다.");
+
+					}
+
+				}	
+				
+
+				function fnTicketCancel()
+
+				{
+
+
+
+				var frmTicketCancel;
+
+				frmTicketCancel = document.createElement("form");
+
+				frmTicketCancel.name = "frmCancel";
+
+				frmTicketCancel.action = "http://ticket.interpark.com/Partner/MyTicket/NonMyPage.asp";
+
+				frmTicketCancel.target = "wndCancel";
+
+				frmTicketCancel.method = "post";
+
+				document.body.appendChild(frmTicketCancel);
+
+
+
+				var o;
+
+				o = document.createElement("input");
+
+				o.name = "cp1";
+
+				o.type = "hidden";
+
+				o.value = "28429"; //해당제휴사코드
+
+				frmTicketCancel.appendChild(o);
+
+
+
+
+
+				try {
+
+
+				var loc = "";
+
+				win = window.open(loc,"wndCancel","top=10, left=10, width=770, height=600, scrollbars=yes");
+
+				if(win==null) {
+
+				alert("팝업창이 제한되어 있어서 예매창을 열 수 없습니다.");
+
+				} else {
+
+				frmTicketCancel.submit();
+
+				win.focus();
+
+				}
+
+
+				} catch(e) {
+
+				alert("팝업창이 제한되어 있어서 예매창을 열 수 없습니다.");
+
+				}
+
+
+				}
+			</script>
+	<script src="./카페드롭탑 Café Droptop_files/f.txt"></script></head>
+	<body>
+			<script type="text/javascript">
+			var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson','Galaxy','Opera Mini');	
+			for (var word in mobileKeyWords){
+				if (navigator.userAgent.match(mobileKeyWords[word]) != null){
+					location.href = "/n/m/";
+					break;
+				}
+			}
+			</script><script type="text/javascript" src="./카페드롭탑 Café Droptop_files/DroptopUICommon.js.다운로드"></script>
+<!-- //script --><link rel="stylesheet" type="text/css" href="./카페드롭탑 Café Droptop_files/main.css">
+<script type="text/javascript">
+	var YouTubeId = "R5izMeJc8b8";
+</script>
+<script type="text/javascript">
+//alert(1);
+var mainThemeData = [];
+
+function MoveMainUrl (Url, MoveType) {
+	if (MoveType == "m") {
+		location.href="http://" + Url;
+	} else {
+		window.open("http://" + Url, "");
+	}
+}
+
+
+</script>
+<script type="text/javascript" src="./카페드롭탑 Café Droptop_files/DroptopMain.js.다운로드"></script>
+<script type="text/javascript" src="./카페드롭탑 Café Droptop_files/banner.js.다운로드"></script>
+<script type="text/javascript">
+
+		$( document ).ready(function() {
+			var cenposi,center;
+			center=parseInt($(window).width()/2+450)+"px";
+			
+			if($(window).width() < 1800)
+			{
+				cenposi=parseInt(($(window).width()-1800))+"px";
+				
+				$('.img').css("margin-left",cenposi);
+				
+			}
+			
+			$('.top_right').css("left",center);	
+			
+			$("#banner").jQBanner({
+			nWidth:100,
+			nHeight:553,
+			nCount:1,	
+			isActType:"left",
+			nOrderNo:1,
+			isStartAct:"N",
+			isStartDelay:"Y",
+			nDelay:6000,
+			isBtnType:"li"
+			});
+			
+			$(window).resize(function(){
+				cenposi=parseInt(($(window).width()-1800))+"px";
+				center=parseInt($(window).width()/2+450)+"px";
+				$('.img').css("margin-left",cenposi);	
+				if($(window).width() < 1800)
+				{
+				
+					$('.img').css("margin-left",cenposi);
+				}else{
+					$('.img').css("margin-left",0);	
+				}
+				$('.top_right').css("left",center);	
+
+			}).resize();
+		
+		
+		});
+</script>
+
+<script type="text/javascript">
+$(document).ready( function(){
+	// 위도 경도 가지고 오기
+	/**/$.ajax({
+		type: "GET",
+		contentType: "application/x-www-form-urlencoded;charset=utf-8",
+		headers: { "cache-control": "no-cache", "pragma": "no-cache" },
+		async: true,
+		cache: false,
+		url: "http://cafedroptop.com/n/kr/freegeoipnet.php",
+		dataType: "xml",
+		success: apiopenweathermaporg,
+		error: function (XMLHttpRequest, textStatus, errorThrown) {
+			kmagokr();
+		}
+	});
+
+	$('#btnSearch').click(function(){
+		//alert ("검색할 매장명을 입력해주세요.");
+		if($('#frName').val() == ""){
+			//alert ("검색할 매장명을 입력해주세요.");
+			$('#frm').submit();
+		}else{
+			$('#frm').submit();
+		}
+	});
+
+	// youtube 자동실행
+	/*var palyerSrc = $('#player').attr('src'),
+		autoSrc = palyerSrc + '?&autoplay=1';
+	$('.mc_youtube a').click(function (e) {
+		e.preventDefault();
+		$('#player').attr('src',autoSrc);
+	});*/
+});
+
+function apiopenweathermaporg (result, textStatus) {
+	var LatitudeTag = result.getElementsByTagName("Latitude")[0];
+	var LatitudeText = (LatitudeTag.text)? LatitudeTag.text: LatitudeTag.textContent;
+	var LongitudeTag = result.getElementsByTagName("Longitude")[0];
+	var LongitudeText = (LongitudeTag.text)? LongitudeTag.text: LongitudeTag.textContent;
+
+	// 위도경도로 주소 가지고 오기
+	$.ajax({
+		type: "GET",
+		contentType: "application/x-www-form-urlencoded;charset=utf-8",
+		headers: { "cache-control": "no-cache", "pragma": "no-cache" },
+		async: true,
+		cache: false,
+		url: "http://cafedroptop.com/n/kr/mapsgoogleapiscom.php?lat=" + LatitudeText + "&lon=" + LongitudeText,
+		dataType: "json",
+		success: function (result, textStatus) {
+			mapsgoogleapiscom(result);
+		},
+		error: function (XMLHttpRequest, textStatus, errorThrown) {
+			kmagokr();
+		}
+	});
+}
+
+function mapsgoogleapiscom (result) {
+	var leaf = result.results[1].address_components[1].long_name;
+	var mdl = result.results[1].address_components[2].long_name;
+	var top = result.results[1].address_components[3].long_name;
+	var topCode = "";
+	var mdlCode = "";
+	var x = "";
+	var y = "";
+
+	// 가지고 온 주소에서 시에 대한 코드값 가지고 오기 -> 도에 대한 코드값
+	$.ajax({
+		type: "GET",
+		contentType: "application/x-www-form-urlencoded;charset=utf-8",
+		headers: { "cache-control": "no-cache", "pragma": "no-cache" },
+		async: true,
+		cache: false,
+		url: "http://cafedroptop.com/n/kr/kmagokrtopjson.php",
+		dataType: "json",
+		success: function (topResult, textStatus) {
+			var count = 0;
+			for (var Idx in topResult) {
+				if (count == 0) {
+					topCode = topResult[Idx].code;
+				}
+				if (topResult[Idx].value == top) {
+					topCode = topResult[Idx].code;
+				}
+				count++;
+			}
+			kmagokrmdljson(topCode, mdl, leaf);
+		},
+		error: function (XMLHttpRequest, textStatus, errorThrown) {
+			kmagokr();
+		}
+	});
+}
+
+function kmagokrmdljson (topCode, mdl, leaf) {
+	// 가지고 온 주소에서 시에 대한 코드값 가지고 오기 -> 도에 대한 코드값
+	$.ajax({
+		type: "GET",
+		contentType: "application/x-www-form-urlencoded;charset=utf-8",
+		headers: { "cache-control": "no-cache", "pragma": "no-cache" },
+		async: true,
+		cache: false,
+		url: "http://cafedroptop.com/n/kr/kmagokrmdljson.php?code=" + topCode,
+		dataType: "json",
+		success: function (mdlResult, textStatus) {
+			var count = 0;
+			var mdlCode = "";
+			for (var Idx in mdlResult) {
+				if (count == 0) {
+					mdlCode = mdlResult[Idx].code;
+				}
+				if (mdlResult[Idx].value == mdl) {
+					mdlCode = mdlResult[Idx].code;
+				}
+				count++;
+			}
+			kmagokrleafjson (mdlCode, leaf);
+		},
+		error: function (XMLHttpRequest, textStatus, errorThrown) {
+			kmagokr();
+		}
+	});
+}
+
+function kmagokrleafjson (mdlCode, leaf) {
+	// 가지고 온 주소에서 시에 대한 코드값 가지고 오기 -> 도에 대한 코드값
+	$.ajax({
+		type: "GET",
+		contentType: "application/x-www-form-urlencoded;charset=utf-8",
+		headers: { "cache-control": "no-cache", "pragma": "no-cache" },
+		async: true,
+		cache: false,
+		url: "http://cafedroptop.com/n/kr/kmagokrleafjson.php?code=" + mdlCode,
+		dataType: "json",
+		success: function (leafResult, textStatus) {
+			var count = 0;
+			var x, y;
+			for (var Idx in leafResult) {
+				if (count == 0) {
+					x = leafResult[Idx].x;
+					y = leafResult[Idx].y;
+				}
+				if (leafResult[Idx].value == leaf) {
+					x = leafResult[Idx].x;
+					y = leafResult[Idx].y;
+				}
+				count++;
+			}
+			kmagokr(x, y);
+		},
+		error: function (XMLHttpRequest, textStatus, errorThrown) {
+		}
+	});
+}
+
+function kmagokr (x, y) {
+	if (!x) {
+		x = 60;
+	}
+	if (!y) {
+		y = 127;
+	}
+
+	// 가지고 온 주소에서 시에 대한 코드값 가지고 오기 -> 도에 대한 코드값
+	$.ajax({
+		type: "GET",
+		contentType: "application/x-www-form-urlencoded;charset=utf-8",
+		headers: { "cache-control": "no-cache", "pragma": "no-cache" },
+		async: true,
+		cache: false,
+		url: "http://cafedroptop.com/n/kr/kma.go.kr.php?x=" + x + "&y=" + y,
+		dataType: "xml",
+		success: function (dataXml, textStatus) {
+			var wfKor = $(dataXml).find("wfKor").first().text();
+			var temp = $(dataXml).find("temp").first().text();
+			$("#wfKorPrint").html(wfKor + " <Br /><span class=\"temp\">" + temp + "℃</span>");
+
+			if (wfKor == "맑음") {
+				$("#weatherImg").attr("src", "../images/main/weather_1.png");
+			} else if (wfKor == "구름 조금") {
+				$("#weatherImg").attr("src", "../images/main/weather_2.png");
+			} else if (wfKor == "구름 많음") {
+				$("#weatherImg").attr("src", "../images/main/weather_2.png");
+			} else if (wfKor == "흐림") {
+				$("#weatherImg").attr("src", "../images/main/weather_2.png");
+			} else if (wfKor == "비") {
+				$("#weatherImg").attr("src", "../images/main/weather_3.png");
+			} else if (wfKor == "눈/비") {
+				$("#weatherImg").attr("src", "../images/main/weather_3.png");
+			} else if (wfKor == "눈") {
+				$("#weatherImg").attr("src", "../images/main/weather_4.png");
+			}
+
+			$("#weatherImg").css("display", "");
+		},
+		error: function (XMLHttpRequest, textStatus, errorThrown) {
+		}
+	});
+}
+</script>
+
+<!--<script type="text/javascript" src="/maup/jplayer/dist/jplayer/jquery.jplayer.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+
+	$("#jquery_jplayer_1").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Big Buck Bunny",
+				m4v: "/maup/main1.mp4",
+			});
+		},
+		swfPath: "/maup/jplayer/dist/jplayer",
+		supplied: "webmv, ogv, m4v,mp4",
+		size: {
+			width: "640px",
+			height: "360px",
+			cssClass: "jp-video-360p"
+		},
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true,
+		remainingDuration: true,
+		toggleDuration: true
+	});
+
+});
+//]]>
+</script>
+-->
+
+  <script src="./카페드롭탑 Café Droptop_files/videojs-ie8.min.js.다운로드"></script>
+
+
+<div id="Wrap" class="main">
+
+	<script type="text/javascript">
+		function subbannerLink (Obj) {
+			if (Obj.attr("bn_linkTarget") == "b") {
+				window.open("http://" + Obj.attr("bn_link"));
+			} else {
+				location.href = "http://" + Obj.attr("bn_link");
+			}
+		}
+
+		var getCookie = function(name){
+			var nameOfCookie = name + "=";
+			var x = 0;
+			while (x <= document.cookie.length)
+			{
+				var y = (x+nameOfCookie.length);
+				if (document.cookie.substring(x,y) == nameOfCookie)
+				{
+					if ((endOfCookie=document.cookie.indexOf(";",y)) == -1)
+						endOfCookie = document.cookie.length;
+					return unescape(document.cookie.substring(y,endOfCookie));
+				}
+				x = document.cookie.indexOf("",x) +1;
+				if(x ==0)
+					break;
+			}
+			return "";
+		}
+
+		var setCookie = function(name, value, expiredays){
+			var todayDate = new Date();
+			todayDate.setDate(todayDate.getDate() + expiredays);
+			document.cookie = name + "=" + escape(value) + "; path=/; expires=" + todayDate.toGMTString() + ";"
+		}
+
+		/*mainClosePopup*/
+		function layerPopupMainClose (id, idChk ){
+			$("#" + id).css("display", "none");
+			if (document.getElementById(idChk).checked == true) {
+				setCookie(id, "done", 1);
+			}
+		}
+
+		function popupLinkExec (Obj) {
+			if (Obj.attr("pp_linkTarget") == "0") {
+				window.open("http://" + Obj.attr("pp_link"));
+			} else {
+				location.href = "http://" + Obj.attr("pp_link");
+			}
+		}
+
+	</script>
+
+
+	<!-- popup 추가 2014.02.26 -->
+	<div class="layerPopup" id="layerPopup">
+		<div class="bg"></div>
+    <div class="layer_body popup_youtube_detail" id="popup_youtube_detail">
+            <!-- -->
+            <span class="btn_close"><a href="http://cafedroptop.com/n/kr/src/main.php#"><img src="./카페드롭탑 Café Droptop_files/btn_pop_close_white.gif" alt="Close"></a></span>
+            <div class="popup_youtube_player" id="player">
+                <!-- iframe id="youtube_player" width="853" height="530" src="http://www.youtube.com/embed/okHI-0IgE98" frameborder="0" allowfullscreen></iframe-->
+            </div>
+        </div>
+		</div>
+	<!-- //popup 추가 2014.02.26 -->
+	<!-- //DetailPopup-->
+
+
+
+	<!-- quickMenu -->
+	<div class="quickmenu_open">
+		<a href="javascript:quickMenuOpen();"><img src="./카페드롭탑 Café Droptop_files/quick_btn_open.png" alt="Quick Menu"></a>
+	</div>
+	<div id="quickMenuWrap">
+		<!-- quick common -->
+
+		<div class="close_btn">
+			<a href="javascript:quickMenuClose();"><img src="./카페드롭탑 Café Droptop_files/quick_btn_close.png" alt="닫기"></a>
+		</div>
+		<!-- // quick common -->
+		<!-- logout -->
+		<!-- [D] 20150608 삭제
+		<div class="quick_header mgt_20 hidden">
+			<p>
+				로그인 후 이용해 주세요
+			</p>
+			<p>
+				드롭탑 회원을 인증해주시기 바랍니다.
+			</p>
+		</div> -->
+
+		<div class="quick_body mgt_20">
+			<div class="login_wrap">
+				<p class="login">Member Login</p>
+				<p>
+					로그인
+				</p>
+				<div class="login">
+					<input class="input_txt1" type="text" name="memberid" id="rightmemberid" value="" title="아이디">
+					<input class="input_txt2" type="password" value="" name="rightmemberpw" id="rightmemberpw" title="비밀번호">
+					<a class="login_btn_type1 fontst_m" href="http://cafedroptop.com/n/kr/src/main.php#" id="rightbtnLogin">Login</a>
+					<!-- <input class="login_btn_type1" type="submit" value="Login" title="로그인" /> -->
+				</div>
+				<div class="btn_group">
+					<a href="javascript:Navigation.goPage(&#39;070200&#39;);">아이디/비밀번호 찾기</a><span class="gap"><img src="./카페드롭탑 Café Droptop_files/quick_vline.gif" alt="|"></span><a href="javascript:Navigation.goPage(&#39;080100&#39;);">회원가입</a>
+				</div>
+			</div>
+			<div class="login_info">
+				<p class="info_txt2">
+					기존 회원님은 리뉴얼 된 홈페이지에<br>
+					실명인증 절차 진행 후, 회원정보가 <br>
+					이관됩니다
+					<span>
+					멤버십 적립 포인트는 인증 없이도 <br>
+					매장에서 확인 및 사용 가능 합니다.
+					</span>
+				</p>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$('#rightbtnLogin').click(function(){
+					rightlogIn();
+				});
+			});
+
+			var EnterKey = function(){
+				if(event.keyCode == 13){
+					rightlogIn();
+				}
+			}
+
+			var rightlogIn = function() {
+				if ($("#rightmemberid").val() == "") {
+					alert("아이디를 입력하세요.");
+					$("#rightmemberid").focus();
+					return;
+				} else if ($("#rightmemberpw").val() == "") {
+					alert("패스워드를 입력하세요.");
+					$("#rightmemberpw").focus();
+					return;
+				}
+
+				// Https 를 사용하기 위해서는 Ajax로는 되지 않기에 form submit을 한다
+				document.rightloginFrm.vPW.value = $("#rightmemberpw").val();
+				document.rightloginFrm.vID.value = $("#rightmemberid").val();
+				document.rightloginFrm.submit();
+			}
+		</script>
+		<form name="rightloginFrm" method="post" action="https://cafedroptop.com/n/kr/src/login.php">
+			<input type="hidden" name="c" value="070100">
+			<input type="hidden" name="m" value="login">
+			<input type="hidden" name="r" value="https://cafedroptop.com/n/kr/src/main.php">
+			<input type="hidden" name="vPW" value="">
+			<input type="hidden" name="vID" value="">
+			<input type="hidden" name="saveid" value="">
+		</form>
+		<!-- //logout -->
+		<div class="quick_footer mgt_25">
+			<ul>
+				<li>
+					<a class="quick_btn_type3" href="javascript:Navigation.goPage(&#39;040100&#39;);">이벤트</a>
+				</li>
+				<li>
+					<a class="quick_btn_type3" href="javascript:Navigation.goPage(&#39;060100&#39;);">모바일쿠폰</a>
+				</li>
+				<li>
+					<a class="quick_btn_type3" href="javascript:Navigation.goPage(&#39;010600&#39;);">가맹문의</a>
+				</li>
+				<li>
+					<a class="quick_btn_type3" href="javascript:Navigation.goPage(&#39;090500&#39;);">온라인 문의.</a>
+				</li>
+				<div class="img_box">
+					<!--<a href="http://cafedroptop.com/n/kr/src/menu.php?c=020000&s=menu/new_menu&mn_UID=26&SCategory=6">-->
+					<img src="./카페드롭탑 Café Droptop_files/quick_img.jpg" alt="유로파이 이미지" width="229/">
+				</div>
+			</ul>
+		</div>
+	</div>
+
+	<!-- //quickMenu -->	<div id="headerWrap">
+
+<!-- new menu -->
+	<div id="headerContents">
+			<!-- gnbWrap -->
+			<div id="gnbWrap">
+
+				<div id="gnbLayout" class="gnb_con">
+						<div id="subCon" class="sub_con" style="display: none;">
+							<ul class="sub_menu"><li class="dep2_li" id="dep2_li_0"><ul id="sub_0" class="dep2_li_ul"><li id="gnb_0_0"><a id="gnb_0_0" href="javascript:Navigation.goPage(&#39;010100&#39;);" title="브랜드이야기 ">브랜드이야기</a></li><li id="gnb_0_1"><a id="gnb_0_1" href="javascript:Navigation.goPage(&#39;100700&#39;);" title="커피이야기 ">커피이야기</a></li><li id="gnb_0_2"><a id="gnb_0_2" href="javascript:Navigation.goPage(&#39;100200&#39;);" title="회사소개 ">회사소개</a></li></ul></li><li class="dep2_li" id="dep2_li_1"><ul id="sub_1" class="dep2_li_ul"><li id="gnb_1_0"><a id="gnb_1_0" href="javascript:Navigation.goPage(&#39;020000&#39;);" title="신제품 ">신제품</a></li><li id="gnb_1_1"><a id="gnb_1_1" href="javascript:Navigation.goPage(&#39;020100&#39;);" title="커피 ">커피</a></li><li id="gnb_1_2"><a id="gnb_1_2" href="javascript:Navigation.goPage(&#39;020200&#39;);" title="음료 ">음료</a></li><li id="gnb_1_3"><a id="gnb_1_3" href="javascript:Navigation.goPage(&#39;020300&#39;);" title="푸드 ">푸드</a></li><li id="gnb_1_4"><a id="gnb_1_4" href="javascript:Navigation.goPage(&#39;020400&#39;);" title="유로파이 ">유로파이</a></li></ul></li><li class="dep2_li" id="dep2_li_2"><ul id="sub_2" class="dep2_li_ul"><li id="gnb_2_0"><a id="gnb_2_0" href="javascript:Navigation.goPage(&#39;030100&#39;);" title="매장안내 ">매장안내</a></li><li id="gnb_2_1"><a id="gnb_2_1" href="javascript:Navigation.goPage(&#39;030200&#39;);" title="테마스토어 ">테마스토어</a></li></ul></li><li class="dep2_li" id="dep2_li_3"><ul id="sub_3" class="dep2_li_ul"><li id="gnb_3_0"><a id="gnb_3_0" href="javascript:Navigation.goPage(&#39;120100&#39;);" title="창업칼럼 ">창업칼럼</a></li><li id="gnb_3_1"><a id="gnb_3_1" href="javascript:Navigation.goPage(&#39;120200&#39;);" title="창업노하우  ">창업노하우 </a></li><li id="gnb_3_2"><a id="gnb_3_2" href="javascript:Navigation.goPage(&#39;120300&#39;);" title="창업안내 ">창업안내</a></li><li id="gnb_3_3"><a id="gnb_3_3" href="javascript:Navigation.goPage(&#39;120400&#39;);" title="창업설명회 ">창업설명회</a></li><li id="gnb_3_4"><a id="gnb_3_4" href="javascript:Navigation.goPage(&#39;120500&#39;);" title="가맹상담 ">가맹상담</a></li><li id="gnb_3_5"><a id="gnb_3_5" href="javascript:Navigation.goPage(&#39;120600&#39;);" title="Master Fr.App ">Master Fr.App</a></li></ul></li><li class="dep2_li" id="dep2_li_4"><ul id="sub_4" class="dep2_li_ul"><li id="gnb_4_0"><a id="gnb_4_0" href="http://cafedroptop.com/n/kr/src/event.php?c=040600&amp;s=event/eventcultureList" title="컬처탑 ">컬처탑</a></li><li id="gnb_4_1"><a id="gnb_4_1" href="javascript:Navigation.goPage(&#39;040100&#39;);" title="이벤트 소식 ">이벤트 소식</a></li><li id="gnb_4_2"><a id="gnb_4_2" href="javascript:Navigation.goPage(&#39;040200&#39;);" title="당첨자 발표 ">당첨자 발표</a></li><li id="gnb_4_3"><a id="gnb_4_3" href="javascript:Navigation.goPage(&#39;040500&#39;);" title="설문조사  ">설문조사 </a></li><li id="gnb_4_4"><a id="gnb_4_4" href="javascript:Navigation.goPage(&#39;030301&#39;);" title="제휴카드  ">제휴카드 </a></li></ul></li><li class="dep2_li" id="dep2_li_5"><ul id="sub_5" class="dep2_li_ul"><li id="gnb_5_0"><a id="gnb_5_0" href="javascript:Navigation.goPage(&#39;050100&#39;);" title="공지사항 ">공지사항</a></li><li id="gnb_5_1"><a id="gnb_5_1" href="javascript:Navigation.goPage(&#39;050200&#39;);" title="보도자료 ">보도자료</a></li><li id="gnb_5_2"><a id="gnb_5_2" href="javascript:Navigation.goPage(&#39;050300&#39;);" title="제작지원 ">제작지원</a></li><li id="gnb_5_3"><a id="gnb_5_3" href="javascript:Navigation.goPage(&#39;050400&#39;);" title="멀티미디어 ">멀티미디어</a></li><li id="gnb_5_4"><a id="gnb_5_4" href="javascript:Navigation.goPage(&#39;050600&#39;);" title="소셜 드롭탑 ">소셜 드롭탑</a></li><li id="gnb_5_5"><a id="gnb_5_5" href="javascript:Navigation.goPage(&#39;050700&#39;);" title="고객의 소리 ">고객의 소리</a></li></ul></li><li class="dep2_li" id="dep2_li_6"><ul id="sub_6" class="dep2_li_ul"><li id="gnb_6_0"><a id="gnb_6_0" href="javascript:Navigation.goPage(&#39;060100&#39;);" title="모바일쿠폰 ">모바일쿠폰</a></li></ul></li></ul>
+						</div>
+						<ul class="gnb" id="gnbUl"><li class="dep1_li first"><a id="gnb_0" href="javascript:Navigation.goPage(&#39;010100&#39;);" title="DROPTOP ">DROPTOP</a></li><li class="dep1_li"><a id="gnb_1" href="javascript:Navigation.goPage(&#39;020000&#39;);" title="MENU ">MENU</a></li><li class="dep1_li"><a id="gnb_2" href="javascript:Navigation.goPage(&#39;030100&#39;);" title="STORE ">STORE</a></li><li class="dep1_li"><a id="gnb_3" href="javascript:Navigation.goPage(&#39;120000&#39;);" title="FRANCHISE ">FRANCHISE</a></li><li class="dep1_li"><a id="gnb_4" href="javascript:Navigation.goPage(&#39;040100&#39;);" title="EVENT ">EVENT</a></li><li class="dep1_li"><a id="gnb_5" href="javascript:Navigation.goPage(&#39;050100&#39;);" title="COMMUNITY ">COMMUNITY</a></li><li class="dep1_li"><a id="gnb_6" href="javascript:Navigation.goPage(&#39;060100&#39;);" title="MALL ">MALL</a></li></ul>
+					</div>
+				<div class="gnb_wrap">
+					<h1 class="gnb_logo">
+						<a href="javascript:Navigation.goPage(&#39;000000&#39;);"><img src="./카페드롭탑 Café Droptop_files/header_logo.png" alt="DROPTOP"></a>
+					</h1>
+					<!-- gnb menu -->
+
+
+					<!-- //gnb menu -->
+					<!-- etc -->
+					<div class="etc_menu">
+						<ul>
+							<!-- <li class="etc_m">
+								<a id="etcm1" href="javascript:Navigation.goPage('000000');">Home</a>
+							</li> -->
+							<li class="etc_m">
+								<a id="etcm2" href="javascript:Navigation.goPage(&#39;070100&#39;);">Login</a>
+							</li>
+							<li class="etc_m">
+								<a id="etcm3" href="javascript:Navigation.goPage(&#39;080100&#39;);">Join</a>
+							</li>
+							<li class="etc_m">
+								<a id="etcm0" href="javascript:Navigation.goPage(&#39;en&#39;);">Eng</a>
+							</li>
+							<li class="etc_m lastm">
+								<a id="etcm3" href="javascript:Navigation.goPage(&#39;090100&#39;);">Membership</a>
+							</li>
+						</ul>
+					</div>
+					<!-- //etc -->
+				</div>
+			</div>
+			<!-- //gnbWrap -->
+			<!-- sub page는 항상 나와 있음 -->
+			<!--div id="subBar"></div-->
+		</div>
+		<!-- //header contents -->
+		<!-- visual area -->
+		<!--
+			클래스 bg1~ bg5로 visual 이미지 변경
+		-->
+		<div class="visual_bg1" id="visualWrap">
+		</div>
+		<!-- //visual area -->
+	<!--//header-->
+	<!-- // #######################include-->
+
+
+
+		</div>
+	<!-- //header -->
+	<div class="mc_visual" style="height: 607px;">
+		<div id="loading2" style="margin-top:54px;float:left;text-align:center;width:100%;height:553px;background:url(../images/common/bg_contents.gif) repeat left top;">
+			<!--<img src="../images/main/ajax-loader2.gif" alt="로딩바" />-->
+			
+			
+			<div class="banner" id="banner" style="background:url(../images/event/first.jpg) no-repeat;">
+								<div class="clsBannerScreen" style="position: relative; height: 553px; width: 100%; overflow: hidden;">
+											<div class="images" style="width: 984px; height: 553px; background: url(&quot;/uploadimg/0.43779400_1555036803.jpg&quot;) center 0px no-repeat; position: absolute; top: 0px; left: 0px; display: block;" divno="0">
+							<a href="http://cafedroptop.com/n/kr/src/menu.php?c=020000&amp;s=menu/new_menu&amp;mn_UID=54&amp;SCategory=8">
+								<p style="width: 984px;height:553px;"></p>
+							</a>
+						</div>
+									</div>
+				<ul class="clsBannerButton">
+											<li class="bannerOver" overclass="bannerOver" outclass="bannerFit" btnno="0"></li>
+									</ul>
+							</div>
+
+			
+		</div>
+		<div class="mv_layout">
+		<div class="mv_theme" id="1mvTheme" style="z-index: 5;display:block;">
+			
+		  </div>
+
+		<div class="timezone" style="display: block;">
+			<div id="ampm"><img src="./카페드롭탑 Café Droptop_files/clock_pm.png" alt="0"></div>
+			<div class="time">
+				<div id="hours1"><img src="./카페드롭탑 Café Droptop_files/clock_1.png" alt="0"></div>
+				<div id="hours2"><img src="./카페드롭탑 Café Droptop_files/clock_2.png" alt="0"></div>
+				<div id="hoursc"><img src="./카페드롭탑 Café Droptop_files/clock_c.png" alt=":"></div>
+				<div id="minutes1"><img src="./카페드롭탑 Café Droptop_files/clock_4.png" alt="0"></div>
+				<div id="minutes2"><img src="./카페드롭탑 Café Droptop_files/clock_5.png" alt="0"></div>
+			</div>
+			</div><!-- //timezone -->
+
+			<!--div class="weatherzone" style="display: block;">
+				<img id="weatherImg" src="../images/main/weather_1.png" class="weather"  />
+				<p id="wfKorPrint">맑음 <br />7℃</p>
+			</div--><!-- //weatherzone -->
+
+	  </div>
+	</div>
+
+
+	<div id="contentsWrap">
+		
+		<div id="contents" style="padding-top: 10px;">
+
+			<div class="mc_findStore">
+				<form name="frm" id="frm" action="http://cafedroptop.com/n/kr/src/store.php" method="get">
+						<input type="hidden" name="c" value="030100">
+						<input type="hidden" name="s" value="store/store">
+					<div class="findStore_inner">
+						<div class="findCon">
+							<span class="title">매장찾기</span>
+							<span class="note">가까운 드롭탑 매장을 찾아보세요!</span>
+							<div class="inputSe"><p class="search_store"><input name="frName" class="main_input" id="frName" type="text"></p><a id="btnSearch" href="javascript:go_false();"><img class="search_img" src="./카페드롭탑 Café Droptop_files/findStoreArea_btn.gif"></a></div>
+						</div>
+
+						<div class="storeOpen" id="OpenStore">
+							<div class="btn_list" style="margin-left: -85px;"><a value="0" class="">0</a><a value="1" class="">1</a><a value="2" class="">2</a><a value="3" class="">3</a><a value="4" class="">4</a><a value="5" class="">5</a><a value="6" class="">6</a><a value="7" class="">7</a><a value="8" class="on">8</a><a value="9" class="">9</a></div>
+							<div class="mask">
+								<ul>
+									<li style="z-index: 4; display: none;">
+										<a href="http://cafedroptop.com/n/kr/src/store.php?c=030100&amp;s=store/store&amp;m=View&amp;vUID=395">
+<img src="./카페드롭탑 Café Droptop_files/0.38599200_1559524191.jpg" alt="드롭탑 매장 서전주CGV 썸네일 이미지">											<div class="dim"></div>
+											<p>
+												<span class="t1">Grand Open</span>
+												<span class="name">서전주CGV</span>
+												<span class="date">2019.05.30</span>
+											</p>
+										</a>
+									</li>
+									<li style="z-index: 4; display: none;">
+										<a href="http://cafedroptop.com/n/kr/src/store.php?c=030100&amp;s=store/store&amp;m=View&amp;vUID=394">
+<img src="./카페드롭탑 Café Droptop_files/0.12379200_1555982011.jpg" alt="드롭탑 매장 전남구례점 썸네일 이미지">											<div class="dim"></div>
+											<p>
+												<span class="t1">Grand Open</span>
+												<span class="name">전남구례점</span>
+												<span class="date">2019.04.19</span>
+											</p>
+										</a>
+									</li>
+									<li style="z-index: 4; display: none;">
+										<a href="http://cafedroptop.com/n/kr/src/store.php?c=030100&amp;s=store/store&amp;m=View&amp;vUID=393">
+<img src="./카페드롭탑 Café Droptop_files/0.73202100_1555378469.jpg" alt="드롭탑 매장 홈플러스대구동촌점 썸네일 이미지">											<div class="dim"></div>
+											<p>
+												<span class="t1">Grand Open</span>
+												<span class="name">홈플러스대구동촌점</span>
+												<span class="date">2019.04.11</span>
+											</p>
+										</a>
+									</li>
+									<li style="z-index: 4; display: none;">
+										<a href="http://cafedroptop.com/n/kr/src/store.php?c=030100&amp;s=store/store&amp;m=View&amp;vUID=392">
+<img src="./카페드롭탑 Café Droptop_files/0.78713300_1552639529.jpg" alt="드롭탑 매장 대전신성점 썸네일 이미지">											<div class="dim"></div>
+											<p>
+												<span class="t1">Grand Open</span>
+												<span class="name">대전신성점</span>
+												<span class="date">2019.03.11</span>
+											</p>
+										</a>
+									</li>
+									<li style="z-index: 4; display: none;">
+										<a href="http://cafedroptop.com/n/kr/src/store.php?c=030100&amp;s=store/store&amp;m=View&amp;vUID=389">
+<img src="./카페드롭탑 Café Droptop_files/0.00532800_1551849077.jpg" alt="드롭탑 매장 전주혁신도시점 썸네일 이미지">											<div class="dim"></div>
+											<p>
+												<span class="t1">Grand Open</span>
+												<span class="name">전주혁신도시점</span>
+												<span class="date">2019.02.18</span>
+											</p>
+										</a>
+									</li>
+									<li style="z-index: 4; display: none;">
+										<a href="http://cafedroptop.com/n/kr/src/store.php?c=030100&amp;s=store/store&amp;m=View&amp;vUID=387">
+<img src="./카페드롭탑 Café Droptop_files/0.87905400_1550737016.jpg" alt="드롭탑 매장 순천성가롤로점 썸네일 이미지">											<div class="dim"></div>
+											<p>
+												<span class="t1">Grand Open</span>
+												<span class="name">순천성가롤로점</span>
+												<span class="date">2019.02.01</span>
+											</p>
+										</a>
+									</li>
+									<li style="z-index: 4; display: none;">
+										<a href="http://cafedroptop.com/n/kr/src/store.php?c=030100&amp;s=store/store&amp;m=View&amp;vUID=386">
+<img src="./카페드롭탑 Café Droptop_files/0.49242900_1548741989.jpg" alt="드롭탑 매장 전남대의대점 썸네일 이미지">											<div class="dim"></div>
+											<p>
+												<span class="t1">Grand Open</span>
+												<span class="name">전남대의대점</span>
+												<span class="date">2019.01.21</span>
+											</p>
+										</a>
+									</li>
+									<li style="z-index: 4; display: none;">
+										<a href="http://cafedroptop.com/n/kr/src/store.php?c=030100&amp;s=store/store&amp;m=View&amp;vUID=384">
+<img src="./카페드롭탑 Café Droptop_files/0.43015700_1545972539.jpg" alt="드롭탑 매장 포항대잠점 썸네일 이미지">											<div class="dim"></div>
+											<p>
+												<span class="t1">Grand Open</span>
+												<span class="name">포항대잠점</span>
+												<span class="date">2018.12.20</span>
+											</p>
+										</a>
+									</li>
+									<li style="z-index: 5;">
+										<a href="http://cafedroptop.com/n/kr/src/store.php?c=030100&amp;s=store/store&amp;m=View&amp;vUID=385">
+<img src="./카페드롭탑 Café Droptop_files/0.49836500_1547449463.png" alt="드롭탑 매장 부산연산역점 썸네일 이미지">											<div class="dim"></div>
+											<p>
+												<span class="t1">Grand Open</span>
+												<span class="name">부산연산역점</span>
+												<span class="date">2018.12.10</span>
+											</p>
+										</a>
+									</li>
+									<li style="z-index: 4; display: none;">
+										<a href="http://cafedroptop.com/n/kr/src/store.php?c=030100&amp;s=store/store&amp;m=View&amp;vUID=382">
+<img src="./카페드롭탑 Café Droptop_files/0.59128700_1543808559.jpg" alt="드롭탑 매장 광주패밀리랜드점 썸네일 이미지">											<div class="dim"></div>
+											<p>
+												<span class="t1">Grand Open</span>
+												<span class="name">광주패밀리랜드점</span>
+												<span class="date">2018.11.23</span>
+											</p>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</form>
+				<div class="franchise_info">
+					<div class="franchise">
+						<p class="first" id="FranchiseHover"><a href="javascript:Navigation.goPage(&#39;010600&#39;);"><font color="#FFFF00"><b>창업문의</b></font></a><span class="call"><b><font color="#FFFF00">1577-9073</font></b></span></p>
+						<p>대표번호<span class="call">02)541-7800</span><br><br>
+                        고객만족센터<span class="call">02)2105-0110</span><br>
+                        ※운영시간 : 09:00 ~ 18:00</p>
+					</div>
+
+					<div class="social">
+						<ul>
+							<li class="first"><a href="https://twitter.com/cafedroptop" target="_blank"><img src="./카페드롭탑 Café Droptop_files/icon_social_twitter.png" alt="twitter"></a></li>
+							<li><a href="https://www.facebook.com/cafedroptopkr/" target="_blank"><img src="./카페드롭탑 Café Droptop_files/icon_social_facebook.png" alt="facebook"></a></li>
+							<li><a href="http://blog.naver.com/droptop2011" target="_blank"><img src="./카페드롭탑 Café Droptop_files/icon_social_blog.png" alt="blog"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="franchise_pop">
+					<strong>가맹문의</strong>
+					<ul>
+						<li>서울본사 <span>02)1577-9073</span></li>
+						<li>부산지사 <span>051)802-5588</span></li>
+						<li>대구지사 <span>053)743-7001</span></li>
+						<li>광주지사 <span>062)225-2004</span></li>
+						<li>대전지사 <span>042)823-8002</span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="mc_event" id="BannerEvent">
+				<p class="mc_event_tt">EVENT</p>
+				<div class="event_inner">
+					<div class="btn_list">
+						<!--a href="#">1</a-->
+					<a value="0" class="on">0</a></div>
+					<div class="mask">
+						<ul>
+<li style="z-index: 5;"><a href="http://cafedroptop.com/n/kr/src/menu.php?c=020000&amp;s=menu/new_menu&amp;mn_UID=54&amp;SCategory=8"><img src="./카페드롭탑 Café Droptop_files/0.96669300_1555036853.png" width="416" height="274"></a></li>						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="event_pop" id="EventPop">
+				<ul>
+
+                <li>
+						<a href="http://cafedroptop.com/n/kr/src/menu.php?c=020000&amp;s=menu/new_menu&amp;mn_UID=54&amp;SCategory=8"><img src="./카페드롭탑 Café Droptop_files/sibam_700_415.jpg" alt="크리스마스 with 하상욱"></a>
+						<span class="btn_close"><img src="./카페드롭탑 Café Droptop_files/btn_pop_close_white.gif" alt="Close"></span>
+					</li>
+
+                <li>
+						<a href="http://cafedroptop.com/n/kr/src/main.php#"><img src="./카페드롭탑 Café Droptop_files/2015_xmas_700_415.jpg" alt="인스타그램 이벤트"></a>
+						<span class="btn_close"><img src="./카페드롭탑 Café Droptop_files/btn_pop_close_white.gif" alt="Close"></span>
+					</li>
+
+
+                    
+                <li>
+						<a href="http://cafedroptop.com/n/kr/src/main.php#"><img src="./카페드롭탑 Café Droptop_files/juice_700_415.jpg" alt="생과일주스 출시"></a>
+						<span class="btn_close"><img src="./카페드롭탑 Café Droptop_files/btn_pop_close_white.gif" alt="Close"></span>
+					</li>
+					
+
+					<li>
+						<a href="http://cafedroptop.com/n/kr/src/main.php#"><img src="./카페드롭탑 Café Droptop_files/jamong_700_415.jpg" alt="로아커증정이벤트"></a>
+						<span class="btn_close"><img src="./카페드롭탑 Café Droptop_files/btn_pop_close_white.gif" alt="Close"></span>
+					</li>
+                    
+					<li>
+						<a href="http://cafedroptop.com/n/kr/src/main.php#"><img src="./카페드롭탑 Café Droptop_files/30order_700_415.jpg" alt="자몽페스티벌"></a>
+						<span class="btn_close"><img src="./카페드롭탑 Café Droptop_files/btn_pop_close_white.gif" alt="Close"></span>
+					</li>    
+                    
+                     
+                    <!--
+     				<li>
+						<a href="#"><img src="../images/main/mainevent00.gif" alt="아이스탑 할인이벤트" /></a>
+						<span class="btn_close"><img src="../images/common/btn_pop_close_white.gif" alt="Close"></span>
+					</li>
+					<li>
+						<a href="#"><img src="../images/main/susan_700_415.jpg" alt="서산한과" /></a>
+						<span class="btn_close"><img src="../images/common/btn_pop_close_white.gif" alt="Close"></span>
+					</li>
+					<li>
+						<a href="#"><img src="../images/main/mainevent02.jpg" alt="프랑스 디저트 명가 포숑과 드롭탑의 만남" /></a>
+						<span class="btn_close"><img src="../images/common/btn_pop_close_white.gif" alt="Close"></span>
+					</li>
+					-->
+
+				</ul>
+			</div>
+			<div class="mc_bestMenu" id="BestMenu">
+				<p class="bestMenu_tt">BEST MENU</p>
+				<div class="bestMenu_inner">
+					<div class="mask">
+						<ul>
+							<li style="z-index: 4; left: 274px;">
+								<a href="http://cafedroptop.com/n/kr/src/menu.php?c=020300&amp;s=menu/list&amp;vCate1=3&amp;vCate2=57&amp;mn_UID=577"><img src="./카페드롭탑 Café Droptop_files/0.53878500_1555036579.jpg" alt="오자몽 아이스탑 (Orange &amp; Grapefuit Icetop) 썸네일 이미지 ">
+										<p>오자몽 아이스탑 <span>Orange &amp; Grapefuit Icetop</span></p>
+								</a>
+								<div class="facelike"><iframe src="./카페드롭탑 Café Droptop_files/like.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowtransparency="true"></iframe></div>
+							</li>
+							<li style="z-index: 4; left: 274px;">
+								<a href="http://cafedroptop.com/n/kr/src/menu.php?c=020300&amp;s=menu/list&amp;vCate1=3&amp;vCate2=57&amp;mn_UID=576"><img src="./카페드롭탑 Café Droptop_files/0.55399600_1555036426.jpg" alt="망고 아이스탑 (Mango Icetop) 썸네일 이미지 ">
+										<p>망고 아이스탑 <span>Mango Icetop</span></p>
+								</a>
+								<div class="facelike"><iframe src="./카페드롭탑 Café Droptop_files/like(1).html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowtransparency="true"></iframe></div>
+							</li>
+							<li style="z-index: 4; left: 274px;">
+								<a href="http://cafedroptop.com/n/kr/src/menu.php?c=020300&amp;s=menu/list&amp;vCate1=3&amp;vCate2=57&amp;mn_UID=575"><img src="./카페드롭탑 Café Droptop_files/0.94986900_1555036374.jpg" alt="블랙 슈가 아이스탑 (Black Sugar Icetop) 썸네일 이미지 ">
+										<p>블랙 슈가 아이스탑 <span>Black Sugar Icetop</span></p>
+								</a>
+								<div class="facelike"><iframe src="./카페드롭탑 Café Droptop_files/like(2).html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowtransparency="true"></iframe></div>
+							</li>
+							<li style="z-index: 4; left: 274px;">
+								<a href="http://cafedroptop.com/n/kr/src/menu.php?c=020300&amp;s=menu/list&amp;vCate1=3&amp;vCate2=57&amp;mn_UID=574"><img src="./카페드롭탑 Café Droptop_files/0.31821000_1555036333.jpg" alt="홍팥 아이스탑 (Soft Persimmon &amp; Red Bean Icetop) 썸네일 이미지 ">
+										<p>홍팥 아이스탑 <span>Soft Persimmon &amp; Red Bean Icetop</span></p>
+								</a>
+								<div class="facelike"><iframe src="./카페드롭탑 Café Droptop_files/like(3).html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowtransparency="true"></iframe></div>
+							</li>
+							<li style="z-index: 4; left: 274px;">
+								<a href="http://cafedroptop.com/n/kr/src/menu.php?c=020300&amp;s=menu/list&amp;vCate1=2&amp;vCate2=55&amp;mn_UID=573"><img src="./카페드롭탑 Café Droptop_files/0.54014500_1554424451.jpg" alt="블랙 슈가 카페라떼 (Black Sugar Cafe Latte) 썸네일 이미지 ">
+										<p>블랙 슈가 카페라떼 <span>Black Sugar Cafe Latte</span></p>
+								</a>
+								<div class="facelike"><iframe src="./카페드롭탑 Café Droptop_files/like(4).html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowtransparency="true"></iframe></div>
+							</li>
+							<li style="z-index: 5; left: 0px;">
+								<a href="http://cafedroptop.com/n/kr/src/menu.php?c=020300&amp;s=menu/list&amp;vCate1=2&amp;vCate2=55&amp;mn_UID=572"><img src="./카페드롭탑 Café Droptop_files/0.70854100_1554424390.jpg" alt="블랙 슈가 얼그레이 밀크티 (Black Sugar Earlgrey Milk Tea) 썸네일 이미지 ">
+										<p>블랙 슈가 얼그레이 밀크티 <span>Black Sugar Earlgrey Milk Tea</span></p>
+								</a>
+								<div class="facelike"><iframe src="./카페드롭탑 Café Droptop_files/like(5).html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowtransparency="true"></iframe></div>
+							</li>
+							<li style="z-index: 4; left: 274px;">
+								<a href="http://cafedroptop.com/n/kr/src/menu.php?c=020300&amp;s=menu/list&amp;vCate1=2&amp;vCate2=55&amp;mn_UID=571"><img src="./카페드롭탑 Café Droptop_files/0.14405000_1554424292.jpg" alt="블랙 슈가 밀크 (Black Sugar Milk) 썸네일 이미지 ">
+										<p>블랙 슈가 밀크 <span>Black Sugar Milk</span></p>
+								</a>
+								<div class="facelike"><iframe src="./카페드롭탑 Café Droptop_files/like(6).html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowtransparency="true"></iframe></div>
+							</li>
+							<li style="z-index: 4; left: 274px;">
+								<a href="http://cafedroptop.com/n/kr/src/menu.php?c=020100&amp;s=menu/list&amp;vCate1=1&amp;vCate2=1&amp;mn_UID=570"><img src="./카페드롭탑 Café Droptop_files/0.29831200_1552005466.jpg" alt="에티오피아 모모라 내추럴 구지 G1 250g (Ethiopia Mormora Natural G1) 썸네일 이미지 ">
+										<p>에티오피아 모모라 내추럴 구지 G1 250g <span>Ethiopia Mormora Natural G1</span></p>
+								</a>
+								<div class="facelike"><iframe src="./카페드롭탑 Café Droptop_files/like(7).html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowtransparency="true"></iframe></div>
+							</li>
+							<li style="z-index: 4; left: 274px;">
+								<a href="http://cafedroptop.com/n/kr/src/menu.php?c=020100&amp;s=menu/list&amp;vCate1=1&amp;vCate2=1&amp;mn_UID=569"><img src="./카페드롭탑 Café Droptop_files/0.76815900_1551747218.jpg" alt="드롭탑 스페셜티 블렌드 250g (Droptop Specialty Blend) 썸네일 이미지 ">
+										<p>드롭탑 스페셜티 블렌드 250g <span>Droptop Specialty Blend</span></p>
+								</a>
+								<div class="facelike"><iframe src="./카페드롭탑 Café Droptop_files/like(8).html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowtransparency="true"></iframe></div>
+							</li>
+							<li style="z-index: 4; left: 274px;">
+								<a href="http://cafedroptop.com/n/kr/src/menu.php?c=020400&amp;s=menu/list&amp;vCate1=4&amp;vCate2=4&amp;mn_UID=561"><img src="./카페드롭탑 Café Droptop_files/0.30985800_1545299324.png" alt="블루벨벳 유로파이 (Blue Velvet Europie) 썸네일 이미지 ">
+										<p>블루벨벳 유로파이 <span>Blue Velvet Europie</span></p>
+								</a>
+								<div class="facelike"><iframe src="./카페드롭탑 Café Droptop_files/like(9).html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowtransparency="true"></iframe></div>
+							</li>
+							<li style="z-index: 4; left: 274px;">
+								<a href="http://cafedroptop.com/n/kr/src/menu.php?c=020400&amp;s=menu/list&amp;vCate1=4&amp;vCate2=4&amp;mn_UID=560"><img src="./카페드롭탑 Café Droptop_files/0.44523900_1545299244.png" alt="피스타치오 &amp; 스트로베리 유로파이 (Pistachio &amp; Strawberry Europie) 썸네일 이미지 ">
+										<p>피스타치오 &amp; 스트로베리 유로파이 <span>Pistachio &amp; Strawberry Europie</span></p>
+								</a>
+								<div class="facelike"><iframe src="./카페드롭탑 Café Droptop_files/like(10).html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowtransparency="true"></iframe></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="bestMenu_arrow">
+					<a href="http://cafedroptop.com/n/kr/src/main.php#" class="arrPrev"><img src="./카페드롭탑 Café Droptop_files/btn_bestmenu_prev.gif" alt="왼쪽 더보기"></a>
+					<a href="http://cafedroptop.com/n/kr/src/main.php#" class="arrNext"><img src="./카페드롭탑 Café Droptop_files/btn_bestmenu_next.gif" alt="오른쪽 더보기"></a>
+				</div>
+			</div>
+
+			<div class="mc_membership">
+				<a href="javascript:Navigation.goPage(&#39;040100&#39;);"><img src="./카페드롭탑 Café Droptop_files/subbanner_qr_02.png" alt="드롭탑 이벤트"></a>
+				<a href="javascript:Navigation.goPage(&#39;040100&#39;);" class="pop_img"><img src="./카페드롭탑 Café Droptop_files/subbanner_qr_02.png" alt="QR코드 스캔하거나 구글마켓/앱스토어에서 시럽을 설치후 어플내에서 카드 발급"></a>
+			</div>
+
+			<div class="mc_ohpoint">
+				<a href="javascript:Navigation.goPage(&#39;090400&#39;);" style="opacity: 1; display: inline;">
+				<!--
+				<a onclick="window.open(this.href, 'popup1', 'width = 100% height = 100%'); return false;" href="https://ohpointcard.com/app/ohpoint/WebCardIntro.ctm?p0=1&amp;p1=&amp;p2=&amp;p3=555555&amp;p4=CARDREG">
+				-->
+				<img src="./카페드롭탑 Café Droptop_files/subbanner_opoint_02.png"></a>
+				<a href="javascript:Navigation.goPage(&#39;090400&#39;);" class="pop_img" style="display: none;"><img src="./카페드롭탑 Café Droptop_files/subbanner_opoint_02_hover.png" alt="멤버십 &amp; 제휴 서비스 안내"></a>
+			</div>
+
+			<div class="mc_eShop" id="EshopProduct">
+				<!--p class="mc_eShop_tt">E-SHOP</p-->
+				<div class="eShop_inner">
+					<div class="btn_list">
+					<a value="0" class="on">0</a></div>
+					<div class="mask">
+						<ul>
+																								<li style="z-index: 5;"><a href="http://cafedroptop.com/n/kr/src/page.php?c=060100&amp;s=eshop/onlinePurchase"><img src="./카페드롭탑 Café Droptop_files/0.23219500_1551678333.png" alt="모바일쿠폰"></a></li>
+																					</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="ppl_area">
+				<div class="mc_ppl" id="BannerSubppl">
+					<div class="ppl_inner">
+						<div class="btn_list">
+						<a value="0" class="on">0</a></div>
+						<div class="mask">
+							<ul>
+								<li style="z-index: 5;"><img src="./카페드롭탑 Café Droptop_files/0.24341400_1551249592.png" bn_link="cafedroptop.com/n/kr/src/page.php?c=120300&amp;s=franchise/costProcedures" bn_linktarget="m" width="274" height="274" style="cursor:pointer;" onclick="subbannerLink($(this));" alt="서브 배너 이미지 "></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="ppl_pop" id="PplPop">
+					<ul>
+						<li><a href="#"><img src="../images/main/main_ppl_img01.jpg" alt="참좋은 시절" /></a></li>
+						<li><a href="#"><img src="../images/main/main_ppl_img02.jpg" alt="잘키운 딸하나" /></a></li>
+					</ul>
+				</div> -->
+			</div>
+
+
+			<div class="mc_youtube">
+				<!--a href="javascript:Navigation.goPage('030200');"-->
+				<a href="http://cafedroptop.com/n/kr/src/event.php?c=050600&amp;s=news/social1"><img src="./카페드롭탑 Café Droptop_files/social_droptop.png">
+				</a>
+			</div>
+
+			<div class="mc_bannerWal" id="OnlineProduct">
+				<div class="btn_list"><a value="0" class="on">0</a></div>
+				<ul>
+					<li style="z-index: 5;"><a href="javascript:Navigation.goPage(&#39;010100&#39;);"><img src="./카페드롭탑 Café Droptop_files/subbanner_logo.jpg" alt="드롭탑 회사소개"></a></li>
+
+				</ul>
+			</div>
+
+			<div class="mc_bannerSub">
+				<a href="http://cafedroptop.com/n/kr/src/news.php?c=050400&amp;s=news/mediaList" style="opacity: 1; display: inline;"><img src="./카페드롭탑 Café Droptop_files/sub_mm_01.gif" alt="카페드롭탑 멀티미디어">
+					<!--strong>가맹사업설명회</strong>
+					<span >1577-9073</span-->
+				</a>
+				<a href="http://cafedroptop.com/n/kr/src/news.php?c=050400&amp;s=news/mediaList" class="pop_img" style="display: none;"><img src="./카페드롭탑 Café Droptop_files/sub_mm_02.gif" alt="카페드롭탑 멀티미디어"></a>
+			</div>
+
+			<div class="mc_bannerSub2">
+				<a href="http://cafedroptop.com/n/kr/src/news.php?&amp;c=050100&amp;s=news%2FnoticeList&amp;m=View&amp;vIDX=101">
+					<strong>인테리어</strong><em>협력업체등록</em>
+				</a>
+				<a href="http://cafedroptop.com/n/kr/src/news.php?&amp;c=050100&amp;s=news%2FnoticeList&amp;m=View&amp;vIDX=101" class="pop_img"><img src="./카페드롭탑 Café Droptop_files/subbanner2_1_02.gif" alt="매장 인테리어공사 함계할 협력업체를 모집합니다."></a>
+			</div>
+			<div class="mc_bannerSub3">
+				<a href="http://cafedroptop.com/n/kr/src/news.php?c=100600&amp;s=other/droptop_recruit">
+					<strong>채용공고</strong>
+				</a>
+				<a href="http://cafedroptop.com/n/kr/src/news.php?c=100600&amp;s=other/droptop_recruit" class="pop_img"><img src="./카페드롭탑 Café Droptop_files/subbanner2_2_02.gif" alt="카페 드롭탑에서 함께 일할 훌륭한 인재를 기다립니다."></a>
+			</div>
+
+			<div class="mc_boardArea" id="board_tab">
+
+					<ul>
+						<!-- 스크립트 연동시, 현재 선택된 메뉴의 li > a.tit 안에 class="on" 이 추가될 수 있게 해주세요. -->
+						<!--<li class="first"><a class="tit here" id="boardTab1" href="#" onclick="BoardTabClick('N');return false;">공지사항</a>
+							<ol>
+<li><a href="news.php?&c=050100&s=news/noticeList&m=View&vIDX=409">2017년 드롭탑 비전&미션<span class="date">2017.01.10</span></a></li><li><a href="news.php?&c=050100&s=news/noticeList&m=View&vIDX=388">드롭탑 애플리케이션 사용설명서<span class="date">2016.10.05</span></a></li><li><a href="news.php?&c=050100&s=news/noticeList&m=View&vIDX=306">드롭탑, 2015 고객감동브랜드지수(K-CSBI) 커피...<span class="date">2015.05.01</span></a></li>								<li class="more"><a title="공지사항 더보기"  href="javascript:Navigation.goPage('050100');"><img src="../images/main/board_more.png" /></a></li>
+							</ol>
+						</li>-->
+						<li><a class="tit" href="http://cafedroptop.com/n/kr/src/main.php#" id="boardTab_0" onclick="BoardTabClick(&#39;P&#39;);return false;">보도자료</a>
+							<ol>
+<li><a href="http://cafedroptop.com/n/kr/src/news.php?&amp;c=050200&amp;s=news/newsList&amp;m=View&amp;vIDX=569">카페 드롭탑, 더욱 풍성해진 시그니처 메뉴 '아이스탑' ...<span class="date">2019.04.12</span></a></li><li><a href="http://cafedroptop.com/n/kr/src/news.php?&amp;c=050200&amp;s=news/newsList&amp;m=View&amp;vIDX=568">카페 드롭탑, 신메뉴 '블랙슈가' 버블티 3종으로 흑당 ...<span class="date">2019.04.12</span></a></li><li><a href="http://cafedroptop.com/n/kr/src/news.php?&amp;c=050200&amp;s=news/newsList&amp;m=View&amp;vIDX=567">카페 드롭탑, 스페셜티 커피 파우치 음료 2종 출시… ...<span class="date">2019.04.03</span></a></li>								<li class="more"><a title="보도자료 더보기" href="javascript:Navigation.goPage(&#39;050200&#39;);"><img src="./카페드롭탑 Café Droptop_files/board_more.png"></a></li>
+							</ol>
+						</li>
+					</ul>
+					<ul>
+						<!-- 스크립트 연동시, 현재 선택된 메뉴의 li > a.tit 안에 class="on" 이 추가될 수 있게 해주세요. -->
+						<li class="first"><a class="tit here" id="boardTab_1" href="http://cafedroptop.com/n/kr/src/main.php#" onclick="BoardTabClick(&#39;N&#39;);return false;">공지사항</a>
+							<ol>
+<li><a href="http://cafedroptop.com/n/kr/src/news.php?&amp;c=050100&amp;s=news/noticeList&amp;m=View&amp;vIDX=409">2017년 드롭탑 비전&amp;미션<span class="date">2017.01.10</span></a></li><li><a href="http://cafedroptop.com/n/kr/src/news.php?&amp;c=050100&amp;s=news/noticeList&amp;m=View&amp;vIDX=388">드롭탑 애플리케이션 사용설명서<span class="date">2016.10.05</span></a></li><li><a href="http://cafedroptop.com/n/kr/src/news.php?&amp;c=050100&amp;s=news/noticeList&amp;m=View&amp;vIDX=306">드롭탑, 2015 고객감동브랜드지수(K-CSBI) 커피...<span class="date">2015.05.01</span></a></li>								<li class="more"><a title="공지사항 더보기" href="javascript:Navigation.goPage(&#39;050100&#39;);"><img src="./카페드롭탑 Café Droptop_files/board_more.png"></a></li>
+							</ol>
+						</li>
+						<li><a class="tit" href="http://cafedroptop.com/n/kr/src/main.php#" id="boardTab_2" onclick="BoardTabClick(&#39;P&#39;);return false;">보도자료</a>
+							<ol>
+<li><a href="http://cafedroptop.com/n/kr/src/news.php?&amp;c=050200&amp;s=news/newsList&amp;m=View&amp;vIDX=569">카페 드롭탑, 더욱 풍성해진 시그니처 메뉴 '아이스탑' ...<span class="date">2019.04.12</span></a></li><li><a href="http://cafedroptop.com/n/kr/src/news.php?&amp;c=050200&amp;s=news/newsList&amp;m=View&amp;vIDX=568">카페 드롭탑, 신메뉴 '블랙슈가' 버블티 3종으로 흑당 ...<span class="date">2019.04.12</span></a></li><li><a href="http://cafedroptop.com/n/kr/src/news.php?&amp;c=050200&amp;s=news/newsList&amp;m=View&amp;vIDX=567">카페 드롭탑, 스페셜티 커피 파우치 음료 2종 출시… ...<span class="date">2019.04.03</span></a></li>								<li class="more"><a title="보도자료 더보기" href="javascript:Navigation.goPage(&#39;050200&#39;);"><img src="./카페드롭탑 Café Droptop_files/board_more.png"></a></li>
+							</ol>
+						</li>
+					</ul>
+					<script type="text/javascript">
+						function BoardTabClick (kind) {
+							if (kind == "N") {
+								$("#boardTab1").removeClass('here');
+								$("#boardTab1").addClass('here');
+								$("#boardTab2").removeClass('here');
+							} else {
+								$("#boardTab2").removeClass('here');
+								$("#boardTab1").removeClass('here');
+								$("#boardTab2").addClass('here');
+							}
+						}
+					</script>
+
+			</div>
+
+		</div><!--// contents -->
+
+	</div>
+	<!-- footer -->
+	<div id="footerWrap">
+			<!-- footer contents -->
+
+		<div class="footer_award">
+					<img src="./카페드롭탑 Café Droptop_files/footer_awards02.gif" alt="수상경력">
+			</div>
+
+		<div id="footer">
+
+
+
+			<!-- logo -->
+			<div class="logo">
+				<a href="http://cafedroptop.com/n/kr/src/main.php#"><img src="./카페드롭탑 Café Droptop_files/logo_footer02.png" alt="드롭탑 로고"></a>
+			</div>
+			<!-- //logo -->
+			<!-- information -->
+			<div class="information">
+				<ul class="link_group">
+					<li>
+						<a href="javascript:Navigation.goPage(&#39;100200&#39;);"><img src="./카페드롭탑 Café Droptop_files/footer_link1.png" alt="회사소개"></a>
+					</li>
+					<li>
+						<img src="./카페드롭탑 Café Droptop_files/footer_link_vl.png" alt="|">
+					</li>
+					<li>
+						<a href="javascript:Navigation.goPage(&#39;110100&#39;);"><img src="./카페드롭탑 Café Droptop_files/footer_link2.png" alt="개인정보취급방침"></a>
+					</li>
+					<li>
+						<img src="./카페드롭탑 Café Droptop_files/footer_link_vl.png" alt="|">
+					</li>
+					<li>
+						<a href="javascript:Navigation.goPage(&#39;110200&#39;);"><img src="./카페드롭탑 Café Droptop_files/footer_link3.png" alt="이용약관"></a>
+					</li>
+					<li>
+						<img src="./카페드롭탑 Café Droptop_files/footer_link_vl.png" alt="|">
+					</li>
+					<li>
+						<a href="javascript:Navigation.goPage(&#39;100500&#39;);"><img src="./카페드롭탑 Café Droptop_files/footer_link4.png" alt="본/지사안내"></a>
+					</li>
+					<li>
+						<img src="./카페드롭탑 Café Droptop_files/footer_link_vl.png" alt="|">
+					</li>
+					<li>
+						<a href="javascript:Navigation.goPage(&#39;100600&#39;);"><img src="./카페드롭탑 Café Droptop_files/footer_link5.png" alt="채용공고"></a>
+					</li>
+					<li>
+						<img src="./카페드롭탑 Café Droptop_files/footer_link_vl.png" alt="|">
+					</li>
+					<li>
+						<a href="http://cafedroptop.com/n/kr/src/news.php?&amp;c=050100&amp;s=news%2FnoticeList&amp;m=View&amp;vIDX=101"><img src="./카페드롭탑 Café Droptop_files/footer_link6.png" alt="시공업체등록"></a> <!-- 010600 -->
+					</li>
+					<li>
+						<img src="./카페드롭탑 Café Droptop_files/footer_link_vl.png" alt="|">
+					</li>
+					<li>
+						<a href="javascript:Navigation.goPage(&#39;110300&#39;);"><img src="./카페드롭탑 Café Droptop_files/footer_link7.png" alt="사이트맵"></a>
+					</li>
+				</ul>
+				<p class="address">
+					<img src="./카페드롭탑 Café Droptop_files/footer_addr1_02.png" alt="서울시 강남구 논현동 1번지 삼주빌딩 12층 (신한은행 건물) (주)다도글로벌/카페드롭탑">&nbsp;&nbsp;&nbsp;
+					<img src="./카페드롭탑 Café Droptop_files/footer_addr4_02.png" alt="T.547-7800">
+					<br>
+					<img src="./카페드롭탑 Café Droptop_files/footer_addr2_02.png" alt="사업자등록증 : 211-88-47165">&nbsp;&nbsp;&nbsp;
+					<img src="./카페드롭탑 Café Droptop_files/footer_addr3_02.png" alt="대표이사 : 임문수">&nbsp;&nbsp;&nbsp;
+				</p>
+				<p class="copyrights">
+					<img src="./카페드롭탑 Café Droptop_files/footer_copy_02.png" alt="Copyright ⓒ 2014 cafe droptop All Rights Reserved.">
+				</p>
+			</div>
+			<!-- //information -->
+			<!-- sns icon -->
+			<div class="sns_group">
+				<ul class="sns">
+					<li>
+						<a href="javascript:Navigation.goPage(&#39;050604&#39;);"><img src="./카페드롭탑 Café Droptop_files/footer_sns_i.gif" alt="트위터"></a>
+					</li>
+					<li>
+						<a href="javascript:Navigation.goPage(&#39;050600&#39;);"><img src="./카페드롭탑 Café Droptop_files/footer_sns_f.gif" alt="페이스북 "></a>
+					</li>
+					<li>
+						<a href="javascript:Navigation.goPage(&#39;050603&#39;);"><img src="./카페드롭탑 Café Droptop_files/footer_sns_m.gif" alt="블로그"></a>
+					</li>
+				</ul>
+			</div>
+			<!-- //sns icon -->
+		</div>
+		
+<!-- 네이버 공통 적용 스크립트 , 모든 페이지에 노출되도록 설치. 단 전환페이지 설정값보다 항상 하단에 위치해야함 --> 
+<script type="text/javascript" src="./카페드롭탑 Café Droptop_files/wcslog.js.다운로드"> </script> 
+<script type="text/javascript"> 
+if (!wcs_add) var wcs_add={};
+wcs_add["wa"] = "s_3d0f76ca10ce";
+if (!_nasa) var _nasa={};
+wcs.inflow();
+wcs_do(_nasa);
+</script>
+
+
+		<!-- //footer contents -->	</div>
+	<!-- //footer -->
+</div>
+
+<script src="./카페드롭탑 Café Droptop_files/html5media.min.js.다운로드"></script>
+<!-- ---------------------------------구글 애널리틱스----------------------------------- -->
+<!-- 구글 애널리틱스 시작 -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35461103-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-40265146-1', 'cafedroptop.com');
+ga('send', 'pageview');
+</script>
+<!-- //구글 애널리틱스 끝 -->
+
+<!-- ---------------------------------구글 리마케팅---------------------------------- -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 868143967;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="./카페드롭탑 Café Droptop_files/f(1).txt">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/868143967/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!-- ---------------------------------타겟팅 게이트----------------------------------- -->
+<!-- 타겟팅 게이트 20150518 -->
+<!-- WIDERPLANET  SCRIPT START 2015.5.18 -->
+<div id="wp_tg_cts" style="display:none;"><script id="wp_id_script_1559533362216" src="./카페드롭탑 Café Droptop_files/wp.js.다운로드"></script><script id="wp_tag_script_1559533362251" src="./카페드롭탑 Café Droptop_files/wpc.php"></script></div>
+<script type="text/javascript">
+var wptg_tagscript_vars = wptg_tagscript_vars || [];
+wptg_tagscript_vars.push(
+(function() {
+	return {
+		wp_hcuid:"",  	/*Cross device targeting을 원하는 광고주는 로그인한 사용자의 Unique ID (ex. 로그인 ID, 고객넘버 등)를 암호화하여 대입.*/
+		ti:"20523",	/*광고주 코드*/
+		ty:"Home",	/*트래킹태그 타입*/
+		device:"web"	/*디바이스 종류 (web 또는 mobile)*/
+		
+	}; 
+}));
+</script> 
+<script type="text/javascript" async="" src="./카페드롭탑 Café Droptop_files/wp_astg_4.0.js.다운로드"></script>
+<!-- // WIDERPLANET  SCRIPT END 2015.5.18 -->
+<!-- // 타겟팅 게이트 20150518 -->
+
+<!-- --------------------------------------네이버---------------------------------------- --> 
+<!-- 네이버 전환 스크립트 20150518 / 2018.11.20 숨김 
+<!-- 공통 적용 스크립트 , 모든 페이지에 노출되도록 설치. 단 전환페이지 설정값보다 항상 하단에 위치해야함 
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"> </script> 
+<script type="text/javascript"> 
+if (!wcs_add) var wcs_add={};
+wcs_add["wa"] = "s_3d0f76ca10ce";
+if (!_nasa) var _nasa={};
+wcs.inflow("cafedroptop.com");
+wcs_do(_nasa);
+</script>
+<!-- // 네이버 전환 스크립트 20150518 -->
+
+<!-- 네이버 공통 적용 스크립트 , 모든 페이지에 노출되도록 설치. 단 전환페이지 설정값보다 항상 하단에 위치해야함 --> 
+<script type="text/javascript" src="./카페드롭탑 Café Droptop_files/wcslog.js.다운로드"> </script> 
+<script type="text/javascript"> 
+if (!wcs_add) var wcs_add={};
+wcs_add["wa"] = "s_3d0f76ca10ce";
+if (!_nasa) var _nasa={};
+wcs.inflow();
+wcs_do(_nasa);
+</script>
+
+
+<!-- --------------------------------------트리니티---------------------------------------- -->
+<!-- 전체스크립트_ ver 트리니티 로그분석용 -->
+<script language="JavaScript">
+var EchoID = "droptop";
+var EchoGoodNm = "";
+var EchoAmount = "";
+var EchoUIP = "";
+var EchoTarget = "";
+var EchoLogSend="Y";
+var EchoCV = "";
+var EchoPN = "";
+</script>
+<script language="JavaScript" src="./카페드롭탑 Café Droptop_files/EchoScriptV2.js.다운로드"></script>
+
+<!-- 20160224 임석택 -->
+<script type="text/javascript">
+    var roosevelt_params = {
+        retargeting_id:'aubiyX5gbcS9oZ-GK2vjUw00',
+        tag_label:'aBsZUnvfTiykfPV6nu-6Hw'
+    };
+</script>
+<script type="text/javascript" src="./카페드롭탑 Café Droptop_files/roosevelt.js.다운로드" async=""></script>
+<!-- 20160224 임석택 -->
+
+	
+
+</body></html>

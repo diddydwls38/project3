@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+.sbHolder{
+	font-family: NanumBarunGothic, 'NanumBarunGothic';
+	font-size: 12px;
+	font-weight: normal;
+	position: relative;
+	height: 23px; border: 1px solid #ddd; color: #888;
+	display: inline-block;
+	width: 75px;
+	background:#fff;
+}
+.sbHolder:focus .sbSelector{
+	
+}
+.sbSelector{
+	display: block;
+	height: 23px;
+	left: 0;
+	line-height: 26px;
+	outline: none;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 10px;
+	top: 0;
+}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover{
+	color: #888;
+	outline: none;
+	text-decoration: none;
+}
+.sbToggle{
+	background: url(../images/common/selectbox_spr.png) center right no-repeat;
+	display: block;
+	height: 23px;
+	outline: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 23px;
+}
+.sbToggle:hover{
+	background: url(../images/common/selectbox_spr.png) center right no-repeat;
+}
+.sbToggleOpen{
+	background: url(../images/common/selectbox_spr.png) center right no-repeat;
+}
+.sbToggleOpen:hover{
+	background: url(../images/common/selectbox_spr.png) center right no-repeat;
+}
+.sbHolderDisabled{
+	background-color: #3C3C3C;
+	border: solid 1px #ddd;
+}
+.sbHolderDisabled .sbHolder{
+	
+}
+.sbHolderDisabled .sbToggle{
+	
+}
+.sbOptions{
+	background-color: #fff;
+	border: solid 1px #ddd;
+	list-style: none;
+	left: -1px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 30px;
+	width: 75px;
+	z-index: 1;
+	overflow-y: auto;
+	text-align: left;
+}
+.sbOptions li{
+	padding: 0 7px;
+	width: 61px;
+}
+.sbOptions a{
+	border-bottom: dotted 1px #ddd;
+	display: block;
+	outline: none;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions a:link, .sbOptions a:visited{
+	color: #888;
+	text-decoration: none;
+}
+.sbOptions a:hover,
+.sbOptions a:focus,
+.sbOptions a.sbFocus{
+	color: #888;
+}
+.sbOptions li.last a{
+	border-bottom: none;
+}
+.sbOptions .sbDisabled{
+	border-bottom: dotted 1px #ddd;
+	color: #999;
+	display: block;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions .sbGroup{
+	border-bottom: dotted 1px #ddd;
+	color: #888;
+	display: block;
+	font-weight: bold;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions .sbSub{
+	padding-left: 17px;
+}

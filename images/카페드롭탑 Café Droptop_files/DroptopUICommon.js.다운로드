@@ -1,0 +1,96 @@
+/*!
+ * Droptop Global Script
+ * Update Date : 20130211
+ * Write : 
+ */
+
+/* Return */
+var go_return = function(){ return;}	
+
+
+/* common layer open 
+ * pram : el (layer_body), func (callback)
+*/
+function layer_open(el,func){
+	var layer = $('.layerPopup');
+	var temp = $('#' + el);
+
+	if ( temp.css ("display") == "block" ){
+		layer.css("display", "block");
+		
+		$('.btn_close', temp).one ('click',function(){
+			$(temp).hide(0,function(){
+				layer_open('el');
+				if (func != undefined ) func.apply();
+			});
+			return false;
+		});
+		
+		$(".bg", $(temp).parent()).one ('click',function(){
+			jQuery(temp).hide(0,function(){
+				layer_open('el');
+				if (func != undefined ) func.apply();
+			});
+			return false;
+		});
+	}else{
+		layer.css("display", "none");
+		//$('.btn_close', temp).die ('click');
+	}
+	if (temp.outerHeight() < $(document).height() ) temp.css('margin-top', '-'+temp.outerHeight()/2+'px');
+	else temp.css('top', '0px');
+	if (temp.outerWidth() < $(document).width() ) temp.css('margin-left', '-'+temp.outerWidth()/2+'px');
+	else temp.css('left', '0px');
+}
+
+
+/*Qyiuk Controll*/
+function quickMenuOpen(){
+	$('#quickMenuWrap').css("display","block").animate({ "right": "0px" }, 300 );
+	$('.quickmenu_open').css({"display" : "none", "right": "-36px" });
+}
+
+function quickMenuClose(){
+	$( "#quickMenuWrap" ).animate({
+    right: "-279px"
+  }, 200, function() {
+  	$(this).css("display","none");
+  	$( ".quickmenu_open" ).css("display","block").animate({ "right": "0px" }, 100);
+  });
+}
+
+
+
+/*img loaded complete (elementID, callbackFunc)*/
+function CheckImageLoadingState(id, func)
+{
+   var counter = 0;
+   var length = 0;
+
+   $('img', id).each(function() 
+   {
+      if(jQuery(this).attr('src').match(/(gif|png|jpg|jpeg)$/))
+        length++;
+   });
+
+   $('img', id).each(function() 
+   {  
+      if($(this).attr('src').match(/(gif|png|jpg|jpeg)$/))
+      {
+         $(this).load(function() 
+         {
+         }).each(function() {
+            if(this.complete) $(this).load();
+          });
+      }
+      $(this).load(function()
+      {
+         counter++;
+         if(counter === length) 
+         {  
+            //function to call when all the images have been loaded
+            if (func != undefined ) func.apply();
+         }
+      });
+   });
+}
